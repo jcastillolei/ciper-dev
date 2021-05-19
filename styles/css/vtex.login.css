@@ -1,0 +1,40 @@
+.content {
+  background-color: #2088b1;
+}
+
+.container :global(.vtex-button) {
+  background-color: #1d1d1b !important;
+  outline: none;
+}
+.container :global(.vtex-button):hover {
+  background-color: #1d1d1b !important;
+}
+
+.arrowUp {
+  background-color: #2088b1;
+}
+
+.formTitle {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.optionsListItem :global(.vtex-button) {
+  background-color: #fff;
+  border-color: #fff;
+  color: #2088b1;
+  transition-duration: 0.3s;
+}
+.optionsListItem :global(.vtex-button):hover {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+}
+.optionsListItem :global(.vtex-button__label) {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding: 0;
+}

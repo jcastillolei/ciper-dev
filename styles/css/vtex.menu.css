@@ -1,0 +1,128 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link-mid) :global(.vtex-flex-layout-0-x-flexColChild) {
+  align-items: center;
+  display: flex;
+}
+
+.menuItem--sucursales {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.menuItem--sucursales .menuItemInnerDiv--sucursales {
+  border-right: 1px solid #fff;
+  max-height: 15px;
+}
+.menuItem--sucursales .menuItemInnerDiv--sucursales .styledLinkContainer--sucursales {
+  padding: 0;
+}
+
+.menuItem--item-menu-mid {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #fff;
+}
+.menuItem--item-menu-mid:last-child {
+  border-right: none;
+}
+.menuItem--item-menu-mid .styledLinkContainer--item-menu-mid {
+  padding: 0;
+  max-height: 15px;
+}
+
+.flexRowContent--main-header {
+  position: relative;
+}
+
+.menuItem--item-producto .submenuContainer {
+  width: 100%;
+  background-color: red;
+  position: inherit;
+}
+.menuItem--item-producto .submenuContainer .submenuWrapper {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.menuItem--item-producto .submenuContainer .submenuWrapper :global(.vtex-flex-layout-0-x-flexRow--submenucontenedor) {
+  width: 95% !important;
+  max-width: 100% !important;
+}
+.menuItem--item-producto .submenuContainer .submenuWrapper :global(.vtex-flex-layout-0-x-flexRow--submenucontenedor) .menuContainerNav--col-submenu-header .styledLinkContainer--col-submenu-header {
+  max-width: 100%;
+}
+.menuItem--item-producto .submenuContainer .submenuWrapper :global(.vtex-flex-layout-0-x-flexRow--submenucontenedor) .menuContainerNav--col-submenu-header .styledLinkContainer--col-submenu-header .styledLinkContent--col-submenu-header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menuItem--menu-item-category,
+.menuItem--menu-item-subcategory {
+  height: auto !important;
+}
+
+.styledLinkContent--menu-item-category {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.styledLinkContent--menu-item-subcategory {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #6f6f6e;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.styledLinkContent--menu-item-vertodo {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #2088b1;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.menuItem--sucursales {
+  z-index: 2;
+  max-height: 15px;
+  border-right: 1px solid #fff;
+}
+
+.styledLinkContent--menu-item-whatsapp {
+  display: flex;
+  align-items: center;
+}
+
+.styledLinkContent--menu-item-whatsapp::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://ciper.vteximg.com.br/arquivos/whatsapp.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.styledLinkContent--menu-item-fono {
+  display: flex;
+  align-items: center;
+}
+
+.styledLinkContent--menu-item-fono::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://ciper.vteximg.com.br/arquivos/phone.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;
+}

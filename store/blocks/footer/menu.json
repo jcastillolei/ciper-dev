@@ -1,0 +1,326 @@
+{
+  "vtex.menu@2.x:menu#servicios-clientes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#servicio-cliente",
+      "menu-item#mis-pedidos",
+      "menu-item#sucursales-footer",
+      "menu-item#distribuidores",
+      "menu-item#quienes-somos",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+  "menu-item#mis-pedidos": {
+    "props": {
+      "id": "menu-item-boleta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Mis pedidos",
+        "text": "Mis Pedidos"
+      }
+    }
+  },
+  "menu-item#sucursales-footer": {
+    "props": {
+      "id": "menu-item-sucursales-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#distribuidores": {
+    "props": {
+      "id": "menu-item-distribuidores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "Distribuidores",
+        "text": "Distibuidores"
+      }
+    }
+  },
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Quienes somos",
+        "text": "Quienes somos"
+      }
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#tiendas-santiago": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#tiendas-santiago",
+      "menu-item#tienda1",
+      "menu-item#tienda2",
+      "menu-item#tienda3",
+      "menu-item#tienda4",
+      "menu-item#tienda5",
+      "menu-item#tienda6"
+    ]
+  },
+  "menu-item#tienda1": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Av. Brasil 23-A"
+      }
+    }
+  },
+  "menu-item#tienda2": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Av. Brasil 39-A"
+      }
+    }
+  },
+  "menu-item#tienda3": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Av. Brasil 39-B"
+      }
+    }
+  },
+  "menu-item#tienda4": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Av. Brasil 50"
+      }
+    }
+  },
+  "menu-item#tienda5": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "A. Brasil 64-B"
+      }
+    }
+  },
+  "menu-item#tienda6": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Gran Avenida 7495"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#tiendas-regiones": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#tiendas-regiones",
+      "menu-item#tienda-region1",
+      "menu-item#tienda-region2",
+      "menu-item#tienda-region3",
+      "menu-item#tienda-region4"
+    ]
+  },
+  "menu-item#tienda-region1": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Puerto Montt"
+      }
+    }
+  },
+  "menu-item#tienda-region2": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Urmeneta 991, Puerto Montt"
+      }
+    }
+  },
+  "menu-item#tienda-region3": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Rancagua"
+      }
+    }
+  },
+  "menu-item#tienda-region4": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Av. Ignacio Carrera Pinto 1055"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#ayuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["rich-text#ayuda", "menu-item#ayuda1", "menu-item#ayuda3"]
+  },
+  "menu-item#ayuda1": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#ayuda3": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  "rich-text#servicio-cliente": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#tiendas-santiago": {
+    "props": {
+      "text": "TIENDAS SANTIAGO",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#tiendas-regiones": {
+    "props": {
+      "text": "TIENDAS REGIONES",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#ayuda": {
+    "props": {
+      "text": "AYUDA",
+      "blockClass": "footer"
+    }
+  }
+}

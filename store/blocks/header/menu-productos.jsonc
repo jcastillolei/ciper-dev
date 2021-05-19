@@ -1,0 +1,1195 @@
+{
+
+    //ACCESORIOS
+    "flex-layout.col#col-menu-accesorios": {
+        "children":[
+            "menu-item#category-accesorios",
+            "menu-item#subcategory-articulos-de-limpieza",
+            "menu-item#subcategory-ceras",
+            "menu-item#subcategory-ferreteria",
+            "menu-item#subcategory-herramientas",
+            "menu-item#vertodo-accesorios"
+        ]
+    },
+    "menu-item#category-accesorios": {
+        "props": {
+            "id": "menu-item-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Accesorios",
+              "text": "Accesorios"
+            }
+          }
+    },
+
+    "menu-item#subcategory-articulos-de-limpieza": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/articulos-de-limpieza",
+              "noFollow": true,
+              "tagTitle": "Artículos de Limpieza",
+              "text": "Artículos de Limpieza"
+            }
+        } 
+    },
+    "menu-item#subcategory-ceras": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ceras",
+              "noFollow": true,
+              "tagTitle": "Ceras",
+              "text": "Ceras"
+            }
+        } 
+    },
+    "menu-item#subcategory-ferreteria": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ferreteria",
+              "noFollow": true,
+              "tagTitle": "Ferreteria",
+              "text": "Ferreteria"
+            }
+        } 
+    },
+    "menu-item#subcategory-herramientas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/herramientas",
+              "noFollow": true,
+              "tagTitle": "Herramientas",
+              "text": "Herramientas"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-accesorios": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/accesorios",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //BATERIAS
+    "flex-layout.col#col-menu-baterias": {
+        "children":[
+            "menu-item#category-baterias",
+            "menu-item#subcategory-100amp",
+            "menu-item#subcategory-120amp",
+            "menu-item#subcategory-150amp",
+            "menu-item#subcategory-180amp",
+            "menu-item#vertodo-baterias"
+        ]
+    },
+    "menu-item#category-baterias": {
+        "props": {
+            "id": "menu-item-baterias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias",
+              "noFollow": true,
+              "tagTitle": "Baterias",
+              "text": "Baterias"
+            }
+          }
+    },
+
+    "menu-item#subcategory-100amp": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias/100amp",
+              "noFollow": true,
+              "tagTitle": "100Amp",
+              "text": "100Amp"
+            }
+        } 
+    },
+    "menu-item#subcategory-120amp": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias/120amp",
+              "noFollow": true,
+              "tagTitle": "120Amp",
+              "text": "120Amp"
+            }
+        } 
+    },
+    "menu-item#subcategory-150amp": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias/150amp",
+              "noFollow": true,
+              "tagTitle": "150Amp",
+              "text": "150Amp"
+            }
+        } 
+    },
+    "menu-item#subcategory-180amp": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias/180amp",
+              "noFollow": true,
+              "tagTitle": "180Amp",
+              "text": "180Amp"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-baterias": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/baterias",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Carroceria
+    "flex-layout.col#col-menu-carroceria": {
+        "children":[
+            "menu-item#category-carroceria",
+            "menu-item#subcategory-cables-o-piolas",
+            "menu-item#subcategory-calefaccion-y-aire-acondicionado",
+            "menu-item#subcategory-capot",
+            "menu-item#subcategory-espejos",
+            "menu-item#vertodo-carroceria"
+        ]
+    },
+    "menu-item#category-carroceria": {
+        "props": {
+            "id": "menu-item-carroceria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria",
+              "noFollow": true,
+              "tagTitle": "Carroceria",
+              "text": "Carroceria"
+            }
+          }
+    },
+
+    "menu-item#subcategory-cables-o-piolas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria/cables-o-piolas",
+              "noFollow": true,
+              "tagTitle": "Cables o Piolas",
+              "text": "Cables o Piolas"
+            }
+        } 
+    },
+    "menu-item#subcategory-calefaccion-y-aire-acondicionado": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria/calefaccion-y-aire-acondicionado",
+              "noFollow": true,
+              "tagTitle": "Calefacción y aire acondicionado",
+              "text": "Calefacción y aire acondicionado"
+            }
+        } 
+    },
+    "menu-item#subcategory-capot": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria/capot",
+              "noFollow": true,
+              "tagTitle": "Capot",
+              "text": "Capot"
+            }
+        } 
+    },
+    "menu-item#subcategory-espejos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria/espejos",
+              "noFollow": true,
+              "tagTitle": "Espejos",
+              "text": "Espejos"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-carroceria": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/carroceria",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Direccion
+    "flex-layout.col#col-menu-direccion": {
+        "children":[
+            "menu-item#category-direccion",
+            "menu-item#subcategory-brazos-y-barras",
+            "menu-item#subcategory-bujes",
+            "menu-item#subcategory-cajas-y-cremalleras",
+            "menu-item#subcategory-crucetas",
+            "menu-item#vertodo-direccion"
+        ]
+    },
+    "menu-item#category-direccion": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion",
+              "noFollow": true,
+              "tagTitle": "Dirección",
+              "text": "Dirección"
+            }
+          }
+    },
+
+    "menu-item#subcategory-brazos-y-barras": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion/brazos-y-barras",
+              "noFollow": true,
+              "tagTitle": "Brazos y Barras",
+              "text": "Brazos y Barras"
+            }
+        } 
+    },
+    "menu-item#subcategory-bujes": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion/bujes",
+              "noFollow": true,
+              "tagTitle": "Bujes",
+              "text": "Bujes"
+            }
+        } 
+    },
+    "menu-item#subcategory-cajas-y-cremalleras": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion/cajas-y-cremalleras",
+              "noFollow": true,
+              "tagTitle": "Cajas y Cremalleras",
+              "text": "Cajas y Cremalleras"
+            }
+        } 
+    },
+    "menu-item#subcategory-crucetas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion/crucetas",
+              "noFollow": true,
+              "tagTitle": "Crucetas",
+              "text": "Crucetas"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-direccion": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/direccion",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Frenos
+    "flex-layout.col#col-menu-frenos": {
+        "children":[
+            "menu-item#category-frenos",
+            "menu-item#subcategory-bomba-de-freno",
+            "menu-item#subcategory-cables-o-piolas-frenos",
+            "menu-item#subcategory-caliper",
+            "menu-item#subcategory-cilindro-de-freno",
+            "menu-item#vertodo-frenos"
+        ]
+    },
+    "menu-item#category-frenos": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos",
+              "noFollow": true,
+              "tagTitle": "Frenos",
+              "text": "Frenos"
+            }
+          }
+    },
+
+    "menu-item#subcategory-bomba-de-freno": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos/bomba-de-freno",
+              "noFollow": true,
+              "tagTitle": "Bombas de Freno",
+              "text": "Bombas de Freno"
+            }
+        } 
+    },
+    "menu-item#subcategory-cables-o-piolas-frenos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos/cables-o-piolas",
+              "noFollow": true,
+              "tagTitle": "Cables o Piolas",
+              "text": "Cables o Piolas"
+            }
+        } 
+    },
+    "menu-item#subcategory-caliper": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos/caliper",
+              "noFollow": true,
+              "tagTitle": "Caliper",
+              "text": "Caliper"
+            }
+        } 
+    },
+    "menu-item#subcategory-cilindro-de-freno": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos/cilindro-de-freno",
+              "noFollow": true,
+              "tagTitle": "Cilindro de Freno",
+              "text": "Cilindro de Freno"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-frenos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/frenos",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Lubricantes
+    "flex-layout.col#col-menu-lubricantes": {
+        "children":[
+            "menu-item#category-lubricantes",
+            "menu-item#subcategory-aceites",
+            "menu-item#subcategory-grasa",
+            "menu-item#subcategory-liquidos",
+            "menu-item#subcategory-refrigerante",
+            "menu-item#vertodo-lubricantes"
+        ]
+    },
+    "menu-item#category-lubricantes": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes",
+              "noFollow": true,
+              "tagTitle": "Lubricantes",
+              "text": "Lubricantes"
+            }
+          }
+    },
+
+    "menu-item#subcategory-aceites": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes/aceites",
+              "noFollow": true,
+              "tagTitle": "Aceites",
+              "text": "Aceites"
+            }
+        } 
+    },
+    "menu-item#subcategory-grasa": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes/grasa",
+              "noFollow": true,
+              "tagTitle": "Grasa",
+              "text": "Grasa"
+            }
+        } 
+    },
+    "menu-item#subcategory-liquidos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes/liquidos",
+              "noFollow": true,
+              "tagTitle": "Líquidos",
+              "text": "Líquidos"
+            }
+        } 
+    },
+    "menu-item#subcategory-refrigerante": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes/refrigerante",
+              "noFollow": true,
+              "tagTitle": "Refrigerante",
+              "text": "Refrigerante"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-lubricantes": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/lubricantes",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Motor
+    "flex-layout.col#col-menu-motor": {
+        "children":[
+            "menu-item#category-motor",
+            "menu-item#subcategory-anillos",
+            "menu-item#subcategory-bielas",
+            "menu-item#subcategory-block-y-ensambles",
+            "menu-item#subcategory-bombas-motor",
+            "menu-item#vertodo-motor"
+        ]
+    },
+    "menu-item#category-motor": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor",
+              "noFollow": true,
+              "tagTitle": "Motor",
+              "text": "Motor"
+            }
+          }
+    },
+
+    "menu-item#subcategory-anillos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor/anillos",
+              "noFollow": true,
+              "tagTitle": "Anillos",
+              "text": "Anillos"
+            }
+        } 
+    },
+    "menu-item#subcategory-bielas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor/bielas",
+              "noFollow": true,
+              "tagTitle": "Bielas",
+              "text": "Bielas"
+            }
+        } 
+    },
+    "menu-item#subcategory-block-y-ensambles": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor/block-y-ensambles",
+              "noFollow": true,
+              "tagTitle": "Block y Ensambles",
+              "text": "Block y Ensambles"
+            }
+        } 
+    },
+    "menu-item#subcategory-bombas-motor": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor/bombas",
+              "noFollow": true,
+              "tagTitle": "Bombas",
+              "text": "Bombas"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-motor": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/motor",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Ruedas
+    "flex-layout.col#col-menu-ruedas": {
+        "children":[
+            "menu-item#category-ruedas",
+            "menu-item#subcategory-llantas",
+            "menu-item#subcategory-neumaticos",
+            "menu-item#subcategory-ruedas",
+            "menu-item#vertodo-ruedas"
+        ]
+    },
+    "menu-item#category-ruedas": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ruedas",
+              "noFollow": true,
+              "tagTitle": "Ruedas",
+              "text": "Ruedas"
+            }
+          }
+    },
+
+    "menu-item#subcategory-llantas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ruedas/llantas",
+              "noFollow": true,
+              "tagTitle": "Llantas",
+              "text": "Llantas"
+            }
+        } 
+    },
+    "menu-item#subcategory-neumaticos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ruedas/neumaticos",
+              "noFollow": true,
+              "tagTitle": "Neumáticos",
+              "text": "Neumáticos"
+            }
+        } 
+    },
+    "menu-item#subcategory-ruedas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ruedas/ruedas",
+              "noFollow": true,
+              "tagTitle": "Ruedas",
+              "text": "Ruedas"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-ruedas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ruedas",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Sistema electrico
+    "flex-layout.col#col-menu-sistema-electrico": {
+        "children":[
+            "menu-item#category-sistema-electrico",
+            "menu-item#subcategory-bobinas",
+            "menu-item#subcategory-bujias",
+            "menu-item#subcategory-cables-de-bujias",
+            "menu-item#subcategory-distribuidor",
+            "menu-item#vertodo-sistema-electrico"
+        ]
+    },
+    "menu-item#category-sistema-electrico": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico",
+              "noFollow": true,
+              "tagTitle": "Sistema Eléctrico",
+              "text": "Sistema Eléctrico"
+            }
+          }
+    },
+
+    "menu-item#subcategory-bobinas": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico/bobinas",
+              "noFollow": true,
+              "tagTitle": "Bobinas",
+              "text": "Bobinas"
+            }
+        } 
+    },
+    "menu-item#subcategory-bujias": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico/bujias",
+              "noFollow": true,
+              "tagTitle": "Bujías",
+              "text": "Bujías"
+            }
+        } 
+    },
+    "menu-item#subcategory-cables-de-bujias": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico/cable-de-bujias",
+              "noFollow": true,
+              "tagTitle": "cable de Bujías",
+              "text": "cable de Bujías"
+            }
+        } 
+    },
+    "menu-item#subcategory-distribuidor": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico/distribuidor",
+              "noFollow": true,
+              "tagTitle": "Distribuidor",
+              "text": "Distribuidor"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-sistema-electrico": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/sistema-electrico",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Suspensión
+    "flex-layout.col#col-menu-suspension": {
+        "children":[
+            "menu-item#category-suspension",
+            "menu-item#subcategory-amortiguadores",
+            "menu-item#subcategory-bandejas-y-brazos",
+            "menu-item#subcategory-bujes-suspension",
+            "menu-item#subcategory-espirales",
+            "menu-item#vertodo-suspension"
+        ]
+    },
+    "menu-item#category-suspension": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension",
+              "noFollow": true,
+              "tagTitle": "Suspensión",
+              "text": "Suspensión"
+            }
+          }
+    },
+
+    "menu-item#subcategory-amortiguadores": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension/amortiguadores",
+              "noFollow": true,
+              "tagTitle": "Amortiguadores",
+              "text": "Amortiguadores"
+            }
+        } 
+    },
+    "menu-item#subcategory-bandejas-y-brazos": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension/bandejas-y-brazos",
+              "noFollow": true,
+              "tagTitle": "Bandejas y Brazos",
+              "text": "Bandejas y Brazos"
+            }
+        } 
+    },
+    "menu-item#subcategory-bujes-suspension": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension/bujes",
+              "noFollow": true,
+              "tagTitle": "Bujes",
+              "text": "Bujes"
+            }
+        } 
+    },
+    "menu-item#subcategory-espirales": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension/espirales",
+              "noFollow": true,
+              "tagTitle": "Espirales",
+              "text": "Espirales"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-suspension": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/suspension",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    },
+
+    //Transmisión
+    "flex-layout.col#col-menu-transmision": {
+        "children":[
+            "menu-item#category-transmision",
+            "menu-item#subcategory-bomba-y-cilindro",
+            "menu-item#subcategory-cables-o-piolas-suspension",
+            "menu-item#subcategory-caja-cambio",
+            "menu-item#subcategory-cardan",
+            "menu-item#vertodo-transmision"
+        ]
+    },
+    "menu-item#category-transmision": {
+        "props": {
+            "id": "menu-item-direccion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-category",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision",
+              "noFollow": true,
+              "tagTitle": "Transmisión",
+              "text": "Transmisión"
+            }
+          }
+    },
+
+    "menu-item#subcategory-bomba-y-cilindro": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision/bomba-y-cilindro-de-embrague",
+              "noFollow": true,
+              "tagTitle": "Bomba y cilindro de embrague",
+              "text": "Bomba y cilindro de embrague"
+            }
+        } 
+    },
+    "menu-item#subcategory-cables-o-piolas-suspension": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision/cables-o-piolas",
+              "noFollow": true,
+              "tagTitle": "Cables o piolas",
+              "text": "Cables o piolas"
+            }
+        } 
+    },
+    "menu-item#subcategory-caja-cambio": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision/caja-cambio",
+              "noFollow": true,
+              "tagTitle": "Caja cambio",
+              "text": "Caja cambio"
+            }
+        } 
+    },
+    "menu-item#subcategory-cardan": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-subcategory",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision/cardan",
+              "noFollow": true,
+              "tagTitle": "Cardan",
+              "text": "Cardan"
+            }
+        } 
+    },
+
+    "menu-item#vertodo-transmision": {
+        "props": {
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-vertodo",
+            "itemProps": {
+              "type": "internal",
+              "href": "/transmision",
+              "noFollow": true,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+        } 
+    }
+}

@@ -1,0 +1,15 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 0;
+  right: -0.8rem;
+  width: 80px;
+  display: flex;
+  text-align: right;
+  padding: 5px 10px;
+  background: #fe6603;
+}
+
+.productHighlightText {
+  color: #fff;
+  font-size: 10px;
+}

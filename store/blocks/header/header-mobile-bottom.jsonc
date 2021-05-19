@@ -1,0 +1,31 @@
+{
+  "sticky-layout#header-mobile-bottom": {
+    "children": ["flex-layout.row#header-mobile-bottom"]
+  },
+  "flex-layout.row#header-mobile-bottom": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites"
+    ],
+    "props": {
+      "blockClass": "header-mobile-bottom",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

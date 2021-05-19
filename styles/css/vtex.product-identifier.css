@@ -1,0 +1,8 @@
+.product-identifier--productReference,
+.product-identifier--skuEan {
+  color: #4d4d4d;
+  font-size: 0.8rem;
+  font-family: "Gotham";
+  margin-bottom: 0.4rem !important;
+  display: block;
+}

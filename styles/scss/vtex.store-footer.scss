@@ -1,0 +1,361 @@
+.footerLayout {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  :global(.vtex-flex-layout-0-x-flexRow--mobile-footer-container) {
+    background-image: url("/arquivos/background-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    :global(.vtex-flex-layout-0-x-flexRowContent--mobile-footer-container) {
+      padding-top: 30px;
+      padding-bottom: 120px;
+      flex-direction: column;
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        justify-content: center;
+        width: 100% !important;
+      }
+      :global(.vtex-rich-text-0-x-container--footer) {
+        color: #fff;
+        justify-content: center;
+      }
+      :global(.vtex-menu-2-x-menuContainerNav) {
+        :global(.vtex-menu-2-x-menuContainer) {
+          :global(.vtex-rich-text-0-x-container--footer) {
+            color: #fff;
+            justify-content: center;
+            border-bottom: 1px solid #5c6062;
+            padding-bottom: 12px;
+            :global(.vtex-rich-text-0-x-wrapper--footer) {
+              :global(.vtex-rich-text-0-x-paragraph--footer) {
+                color: white;
+                margin: 0;
+                font-size: 14px;
+                font-weight: bold;
+              }
+            }
+          }
+          :global(.vtex-menu-2-x-menuItem) {
+            padding: 12px 0;
+            border-bottom: 1px solid #5c6062;
+            :global(.vtex-menu-2-x-styledLinkContainer) {
+              margin: 0;
+              :global(.vtex-menu-2-x-styledLink) {
+                :global(.vtex-menu-2-x-styledLinkContent) {
+                  justify-content: center;
+                  color: #fff;
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      :global(.vtex-flex-layout-0-x-flexCol--pdp-services) {
+        margin-top: 37px;
+        :global(.vtex-flex-layout-0-x-flexColChild--pdp-services) {
+          margin-bottom: 13px;
+          :global(.vtex-rich-text-0-x-container) {
+            display: flex;
+            justify-content: center;
+            :global(.vtex-rich-text-0-x-wrapper) {
+              display: flex;
+              color: white;
+              :global(.vtex-rich-text-0-x-paragraph) {
+                display: flex;
+                align-items: center;
+                margin: 0 27px 0 0;
+              }
+              :global(.vtex-service-text) {
+                margin: 0;
+                color: white;
+                width: 230px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                :global(.vtex-service-title) {
+                  text-align: left;
+                  font-size: 14px;
+                  line-height: 14px;
+                }
+                :global(.vtex-service-subtitle) {
+                  text-align: left;
+                  font-size: 10px;
+                  line-height: 10px;
+                }
+              }
+            }
+            :global(.vtex-rich-text-0-x-wrapper--compra-segura) {
+              :global(.vtex-rich-text-0-x-paragraph) {
+                :global(.vtex-rich-text-0-x-image) {
+                  width: 22px;
+                  height: 28px;
+                  margin-left: 4px;
+                  margin-right: 4px;
+                }
+              }
+            }
+            :global(.vtex-rich-text-0-x-wrapper--devoluciones) {
+              :global(.vtex-rich-text-0-x-paragraph) {
+                :global(.vtex-rich-text-0-x-image) {
+                  width: 30px;
+                  height: 33px;
+                }
+              }
+            }
+            :global(.vtex-rich-text-0-x-wrapper--envio-domicilio) {
+              :global(.vtex-rich-text-0-x-paragraph) {
+                :global(.vtex-rich-text-0-x-image) {
+                  width: 26px;
+                  height: 21px;
+                  margin-left: 2px;
+                  margin-right: 2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--footer-newsletter) {
+    width: 100%;
+    margin-bottom: 20px;
+    :global(.vtex-store-components-3-x-container) {
+      max-width: 750px;
+      width: 100%;
+      @media screen and (max-width: 80em) {
+        max-width: unset;
+        margin: 0 30px;
+        width: 100%;
+      }
+      :global(.vtex-flex-layout-0-x-flexRowContent--footer-newsletter) {
+        justify-content: space-between;
+        padding: 0 22px;
+        :nth-child(even) {
+          flex-grow: 2;
+          margin-left: 20px;
+          @media screen and (max-width: 80em) {
+            margin-left: 0;
+          }
+        }
+        :global(.vtex-rich-text-0-x-container--footer-newsletter-title) {
+          //margin-right: 35px;
+          :global(.vtex-rich-text-0-x-wrapper--footer-newsletter-title) {
+            :global(.vtex-rich-text-0-x-paragraph--footer-newsletter-title) {
+              margin: 0;
+              padding: 20px 0px;
+              line-height: 25px;
+              @media screen and (max-width: 80em) {
+                padding: 20px 0 0;
+              }
+            }
+          }
+        }
+      }
+      :global(.vtex-rich-text-0-x-container--footer-newsletter-description) {
+        //margin-right: 40px;
+        :global(.vtex-rich-text-0-x-wrapper--footer-newsletter-description) {
+          :global(.vtex-rich-text-0-x-paragraph--footer-newsletter-description) {
+            letter-spacing: 0.1px;
+            font-size: 11px;
+            @media screen and (max-width: 80em) {
+              margin: 0 0 20px;
+            }
+          }
+        }
+      }
+      :global(.vtex-store-newsletter-1-x-newsletterForm) {
+        :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+          margin-right: 0;
+          @media screen and (max-width: 80em) {
+            margin: 0 0 17px;
+          }
+          :global(.vtex-input) {
+            :global(.vtex-input-prefix__group) {
+              height: 25px;
+            }
+          }
+        }
+        :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+          @media screen and (max-width: 80em) {
+            margin: 0 0 20px;
+          }
+          :global(.vtex-button) {
+            min-height: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--footer-container) {
+    background-image: url("/arquivos/background-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    :global(.vtex-flex-layout-0-x-flexRowContent--footer-container) {
+      :global(.vtex-flex-layout-0-x-flexCol--footer-container) {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 35px 130px 0;
+        justify-content: space-between;
+        :global(.vtex-flex-layout-0-x-flexColChild--footer-container) {
+          :global(.vtex-flex-layout-0-x-flexRow--footer-top-desktop) {
+            width: 100%;
+            :global(.vtex-flex-layout-0-x-flexRowContent--footer-top-desktop) {
+              /* max-width: 1200px;
+              margin: 0 auto;
+              padding: 35px 130px 0;
+              justify-content: space-between; */
+              :global(.vtex-store-components-3-x-imageElement--logo-carep) {
+                max-width: 42%;
+                margin-left: 58%;
+              }
+            }
+          }
+          :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+              :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                &:last-child {
+                  width: fit-content !important;
+                }
+              }
+              padding-top: 45px;
+              padding-bottom: 45px;
+              :global(.vtex-menu-2-x-menuContainerNav) {
+                :global(.vtex-menu-2-x-menuContainer) {
+                  :global(.vtex-rich-text-0-x-container--footer) {
+                    color: #fff;
+                    :global(.vtex-rich-text-0-x-wrapper--footer) {
+                      :global(.vtex-rich-text-0-x-paragraph--footer) {
+                        color: white;
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                  :global(.vtex-menu-2-x-menuItem) {
+                    :global(.vtex-menu-2-x-styledLinkContainer) {
+                      margin: 0;
+                      :global(.vtex-menu-2-x-styledLink) {
+                        :global(.vtex-menu-2-x-styledLinkContent) {
+                          color: #fff;
+                          font-size: 10px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              :global(.vtex-flex-layout-0-x-flexRow--pdp-services) {
+                :global(.vtex-flex-layout-0-x-flexRowContent--pdp-services) {
+                  :global(.vtex-flex-layout-0-x-flexCol--pdp-services) {
+                    :global(.vtex-flex-layout-0-x-flexColChild--pdp-services) {
+                      margin-bottom: 13px;
+                      :global(.vtex-rich-text-0-x-container) {
+                        :global(.vtex-rich-text-0-x-wrapper) {
+                          display: flex;
+                          color: white;
+                          :global(.vtex-rich-text-0-x-paragraph) {
+                            display: flex;
+                            align-items: center;
+                            margin: 0 27px 0 0;
+                          }
+                          :global(.vtex-service-text) {
+                            margin: 0;
+                            color: white;
+                            width: 230px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            :global(.vtex-service-title) {
+                              text-align: left;
+                              font-size: 14px;
+                              line-height: 14px;
+                            }
+                            :global(.vtex-service-subtitle) {
+                              text-align: left;
+                              font-size: 10px;
+                              line-height: 10px;
+                            }
+                          }
+                        }
+                        :global(.vtex-rich-text-0-x-wrapper--compra-segura) {
+                          :global(.vtex-rich-text-0-x-paragraph) {
+                            :global(.vtex-rich-text-0-x-image) {
+                              width: 22px;
+                              height: 28px;
+                              margin-left: 4px;
+                              margin-right: 4px;
+                            }
+                          }
+                        }
+                        :global(.vtex-rich-text-0-x-wrapper--devoluciones) {
+                          :global(.vtex-rich-text-0-x-paragraph) {
+                            :global(.vtex-rich-text-0-x-image) {
+                              width: 30px;
+                              height: 33px;
+                            }
+                          }
+                        }
+                        :global(.vtex-rich-text-0-x-wrapper--envio-domicilio) {
+                          :global(.vtex-rich-text-0-x-paragraph) {
+                            :global(.vtex-rich-text-0-x-image) {
+                              width: 26px;
+                              height: 21px;
+                              margin-left: 2px;
+                              margin-right: 2px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--logo-carep) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--logo-carep) {
+      margin: 30px 0 10px;
+      padding: 0;
+      :global(.vtex-store-components-3-x-imageElement--logo-carep) {
+        width: 130px;
+        height: 60px;
+      }
+    }
+  }
+}
+
+.socialNetworkWrapper {
+  @media screen and (max-width: 80em) {
+    margin-bottom: 30px;
+  }
+  .socialNetworksContainer {
+    gap: 18px;
+    @media screen and (max-width: 80em) {
+      justify-content: center;
+    }
+    :global(.vtex-store-footer-2-x-socialNetworkImage) {
+      display: none;
+    }
+    :global(.vtex-store-footer-2-x-socialNetworkLink--facebook) {
+      background: url("/arquivos/ciper-icon-facebook.png");
+      background-size: cover;
+    }
+    :global(.vtex-store-footer-2-x-socialNetworkLink--instagram) {
+      background: url("/arquivos/ciper-icon-ing.png");
+      background-size: cover;
+    }
+  }
+}

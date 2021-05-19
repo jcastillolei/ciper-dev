@@ -1,0 +1,212 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#header-desktop-top-mobile",
+      "flex-layout.row#header-mobile-mid",
+      "flex-layout.row#header-mobile-bottom"
+    ]
+  },
+  "flex-layout.row#header-desktop-top-mobile": {
+    "children": ["slider-layout#notification-bar"],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "header-top"
+    }
+  },
+  "flex-layout.row#header-mobile-mid": {
+    "children": [
+      "flex-layout.col#logo-mobile-ciper",
+      "search-bar",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header-mid-mobile"
+    }
+  },
+
+  "flex-layout.col#logo-mobile-ciper": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-mobile"
+    },
+    "children": ["logo#mobile-ciper"]
+  },
+
+  "logo#mobile-ciper": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://ciper.vteximg.com.br/arquivos/logo-ciper-mobile.png",
+      "width": "180"
+    }
+  },
+
+  "flex-layout.row#header-mobile-bottom": {
+    "children": ["drawer#mobile", "flex-layout.col#link-mobile-bottom"],
+    "props": {
+      "blockClass": "header-row-bottom-mobile"
+    }
+  },
+  "drawer#mobile": {
+    "children": ["flex-layout.row#container-menu-drawer"],
+    "props": {
+      "slideDirection": "horizontal",
+      "isFullWidth": false,
+      "blockClass": "drawer-mobile"
+    }
+  },
+  "flex-layout.row#container-menu-drawer": {
+    "children": ["flex-layout.col#content-menu-drawer"],
+    "props": {
+      "blockClass": "container-menu-drawer"
+    }
+  },
+  "flex-layout.col#content-menu-drawer": {
+    "children": [
+      "flex-layout.row#links-menu-mobile-drawer",
+      "flex-layout.row#links-row-botton-drawer"
+    ]
+  },
+  "flex-layout.row#links-menu-mobile-drawer": {
+    "children": ["vtex.menu@2.x:menu#menu-mobile-drawer-links"]
+  },
+  "vtex.menu@2.x:menu#menu-mobile-drawer-links": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#accesorios-mobile",
+      "menu-item#baterias-mobile",
+      "menu-item#carroceria-mobile",
+      "menu-item#direccion-mobile",
+      "menu-item#frenos-mobile",
+      "menu-item#lubricantes-mobile",
+      "menu-item#motor-mobile",
+      "menu-item#ruedas-mobile",
+      "menu-item#sistema-electrico-mobile",
+      "menu-item#suspension-mobile",
+      "menu-item#transmision-mobile"
+    ]
+  },
+
+  "flex-layout.col#link-mobile-bottom": {
+    "children": [
+      "menu-item#sucursales-mobile",
+      "menu-item#centro-de-ayuda-mobile"
+    ],
+    "props": {
+      "blockClass": "links-menu-bottom-mobile"
+    }
+  },
+  "menu-item#sucursales-mobile": {
+    "props": {
+      "id": "menu-item-menu-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#centro-de-ayuda-mobile": {
+    "props": {
+      "id": "menu-item-menu-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Centro de Ayudas",
+        "text": "Centro de Ayudas"
+      }
+    }
+  },
+
+  "flex-layout.row#links-row-botton-drawer": {
+    "children": [
+      "menu-item#drawer-micuenta-mobile",
+      "menu-item#drawer-sucursales-mobile",
+      "menu-item#drawer-contacto-mobile",
+      "menu-item#drawer-mispedidos-mobile",
+      "menu-item#drawer-whatsapp-mobile"
+    ],
+    "props": {
+      "blockClass": "links-row-botton-drawer"
+    }
+  },
+  "menu-item#drawer-micuenta-mobile": {
+    "props": {
+      "id": "menu-item-row-bottom-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta"
+      }
+    }
+  },
+  "menu-item#drawer-sucursales-mobile": {
+    "props": {
+      "id": "menu-item-row-bottom-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#drawer-contacto-mobile": {
+    "props": {
+      "id": "menu-item-row-bottom-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#drawer-mispedidos-mobile": {
+    "props": {
+      "id": "menu-item-row-bottom-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Mis pedidos",
+        "text": "Mis pedidos"
+      }
+    }
+  },
+  "menu-item#drawer-whatsapp-mobile": {
+    "props": {
+      "id": "menu-item-row-bottom-drawer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://api.whatsapp.com/send?phone=56994076762",
+        "tagTitle": "Whatsapp",
+        "text": "Whatsapp"
+      }
+    }
+  }
+}

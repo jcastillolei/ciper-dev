@@ -1,0 +1,26 @@
+{
+  "sticky-layout#header-mobile-mid": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-mobile"]
+  },
+  "flex-layout.row#4-mobile": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["logo#mobile", "search-bar", "minicart.v2"]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}

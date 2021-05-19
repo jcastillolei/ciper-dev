@@ -1,0 +1,17 @@
+{
+  "store.custom#contact-us": {
+    "path": "/contacto"
+  },
+  "store.custom#marcas-de-repuestos": {
+    "path": "/marcas-de-repuestos"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#sucursales": {
+    "path": "/sucursales"
+  }
+}

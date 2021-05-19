@@ -1,0 +1,157 @@
+.container--footer-newsletter-title {
+  justify-content: center;
+}
+.container--footer-newsletter-title .wrapper--footer-newsletter-title .paragraph--footer-newsletter-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container--footer-newsletter-description {
+  align-items: center;
+  justify-content: left;
+}
+@media screen and (max-width: 80em) {
+  .container--footer-newsletter-description {
+    justify-content: center;
+  }
+}
+.container--footer-newsletter-description .wrapper--footer-newsletter-description .paragraph--footer-newsletter-description {
+  color: #000;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.heading--help-message {
+  font-family: "Montserrat";
+  font-size: 32px;
+  color: #000;
+  text-align: left;
+}
+
+.paragraph--help-message {
+  font-family: "OpenSans";
+  font-size: 12px;
+  color: #000;
+  text-align: left;
+}
+
+.link--help-message {
+  color: #fff;
+  background-color: #ff9933;
+  width: 230px;
+  height: 30px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Akrobat";
+}
+
+@media (min-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-top) {
+    position: relative;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-top) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: auto !important;
+    position: absolute;
+    right: 5%;
+    top: 0.6rem;
+  }
+
+  :global(.vtex-login-2-x-container) :global(.vtex-login-2-x-label) {
+    color: #fff;
+    font-size: 10px;
+    font-family: "Open-sans", sans-serif;
+    text-transform: uppercase;
+  }
+}
+.container--sitio-seguro-header {
+  display: block;
+}
+.container--sitio-seguro-header .paragraph--sitio-seguro-header {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-family: "FiraSans";
+  text-align: left;
+  position: relative;
+}
+.container--sitio-seguro-header .paragraph--sitio-seguro-header .strong--sitio-seguro-header {
+  font-size: 10px;
+  font-weight: bold;
+}
+.container--sitio-seguro-header .paragraph--sitio-seguro-header .strong--sitio-seguro-header .italic--sitio-seguro-header {
+  font-size: 8px;
+  font-style: normal;
+}
+.container--sitio-seguro-header .paragraph--sitio-seguro-header::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  display: block;
+  width: 20px;
+  height: 28px;
+  background-image: url("https://ciper.vteximg.com.br/arquivos/ciper-icon-seguridad.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 1rem;
+}
+
+.headingLevel3--text-marca {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.paragraph--text-marca {
+  margin-top: 0;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.paragraph--title-marcas-de-repuestos,
+.paragraph--title-preguntas-frecuentes,
+.paragraph--title-quienes-somos {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.paragraph--title-preguntas-frecuentes {
+  margin-bottom: 0;
+}
+
+.headingLevel3--text-faq {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.paragraph--text-faq,
+.paragraph--text-quienes-somos {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}
+
+.italic--text-faq {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.link--text-faq {
+  color: #3f3f40;
+}

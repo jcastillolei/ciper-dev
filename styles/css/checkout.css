@@ -1,0 +1,357 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&display=swap");
+/*
+  Cart
+*/
+body {
+  padding-top: 0;
+  font-family: "Montserrat";
+}
+
+.body-cart .container,
+.body-cart .container-cart,
+.body-order-form .container,
+.body-order-form .container-cart {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+}
+.body-cart .container:not(.container-cart, .container-order-form),
+.body-order-form .container:not(.container-cart, .container-order-form) {
+  justify-content: space-between;
+  border-bottom: 1px solid #eef0f1;
+  margin-bottom: 45px;
+}
+.body-cart .container:not(.container-cart, .container-order-form):before,
+.body-order-form .container:not(.container-cart, .container-order-form):before {
+  content: "";
+  display: none;
+}
+.body-cart .container:not(.container-cart, .container-order-form):after,
+.body-order-form .container:not(.container-cart, .container-order-form):after {
+  content: "";
+  display: none;
+}
+.body-cart .container .logo-link,
+.body-cart .container .secure-site,
+.body-order-form .container .logo-link,
+.body-order-form .container .secure-site {
+  width: 50%;
+}
+.body-cart .container .logo-link .logo,
+.body-order-form .container .logo-link .logo {
+  width: 74px;
+  height: 73px;
+}
+.body-cart .container .secure-site,
+.body-order-form .container .secure-site {
+  display: flex;
+  justify-content: flex-end;
+  color: #828281;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+}
+.body-cart .container .secure-site .candado,
+.body-order-form .container .secure-site .candado {
+  width: 18px;
+  height: 23px;
+  margin-right: 15px;
+}
+.body-cart .container-cart,
+.body-order-form .container-cart {
+  flex-direction: column;
+}
+.body-cart .container-cart #cart-title,
+.body-order-form .container-cart #cart-title {
+  font-size: 0;
+}
+.body-cart .container-cart #cart-title:before,
+.body-order-form .container-cart #cart-title:before {
+  content: "CARRO DE COMPRAS";
+  font-size: 23px;
+  color: #000;
+  line-height: 27px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder {
+  margin-bottom: 30px;
+  border: 1px solid #eef0f1;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart {
+  border-radius: unset;
+  border: none;
+  margin-bottom: unset;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead {
+  border-bottom: 1px solid #dddddd;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .product,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .shipping-date,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .product-price,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .quantity,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .quantity-price,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .product,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .shipping-date,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .product-price,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .quantity,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items thead tr .quantity-price {
+  color: #828281;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item {
+  border-bottom: 1px solid #dddddd;
+  height: 60px;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-image,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-image {
+  padding: 0 20px 0 0;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name a,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name a {
+  color: #000;
+  font-weight: bold;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name .brand,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name .seller,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name .brand,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .product-name .seller {
+  display: none;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .shipping-date,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity,
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity-price,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .shipping-date,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity-price {
+  color: #000;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity .item-quantity-change .icon,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity .item-quantity-change .icon {
+  color: white;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50%, #000, #fff 65%);
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity input,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-template-holder .cart .cart-items tbody .product-item .quantity input {
+  border-radius: unset;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .cart-more-options,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .cart-more-options {
+  display: none;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers {
+  display: flex;
+  width: fit-content;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap {
+  margin-right: 30px;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon {
+  margin-left: 0;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset .coupon-data .link-coupon-add,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset .coupon-data .link-coupon-add {
+  color: #999;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div {
+  background-color: #eaeaea;
+  padding: 20px 10px;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-label label,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-label label {
+  font-size: 0;
+  text-align: left;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-label label:before,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-label label:before {
+  content: "Sumar cupón";
+  font-size: 14px;
+  color: #565655;
+  font-weight: bold;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info),
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) {
+  display: flex;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) .loading-coupon,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) .loading-coupon {
+  width: 20px;
+  height: 20px;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) #cart-coupon-add,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) #cart-coupon-add {
+  background: #1d8cb8;
+  font-size: 0;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) #cart-coupon-add:before,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset > div .coupon-fields span:not(.info) #cart-coupon-add:before {
+  content: "OK";
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group {
+  border: 1px solid #f5f5f5;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group .table .totalizers-list .Items .info,
+.body-cart .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group .table .totalizers-list .Discounts .info,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group .table .totalizers-list .Items .info,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .summary-template-holder .summary .summary-totalizers.cart-totalizers .accordion-group .table .totalizers-list .Discounts .info {
+  padding-left: 25px;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-links-bottom .link-choose-more-products-wrapper .link-choose-more-products,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-links-bottom .link-choose-more-products-wrapper .link-choose-more-products {
+  color: #999;
+}
+.body-cart .container-cart .cart-active .cart-template.full-cart .cart-links-bottom .btn-place-order-wrapper #cart-to-orderform,
+.body-order-form .container-cart .cart-active .cart-template.full-cart .cart-links-bottom .btn-place-order-wrapper #cart-to-orderform {
+  background: #1d8cb8;
+}
+.body-cart .container-order-form,
+.body-order-form .container-order-form {
+  flex-direction: column;
+}
+.body-cart .container-order-form #orderform-title,
+.body-order-form .container-order-form #orderform-title {
+  font-size: 0;
+}
+.body-cart .container-order-form #orderform-title:before,
+.body-order-form .container-order-form #orderform-title:before {
+  content: "FINALIZAR COMPRA";
+  font-size: 23px;
+  color: #000;
+  line-height: 27px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder input,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder input {
+  border-radius: unset;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email {
+  border-top: unset;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .link.link-cart,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .link.link-cart {
+  position: absolute;
+  bottom: 0;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h {
+  color: #000;
+  font-family: "Montserrat";
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h label,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h label {
+  font-size: 16px;
+  margin-top: 0;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h label small,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-pre-email-h label small {
+  font-size: 12px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email {
+  width: 40%;
+  margin: 0;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email #client-pre-email,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email #client-pre-email {
+  height: 30px;
+  font-size: 12px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email #btn-client-pre-email,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .pre-email .client-email #btn-client-pre-email {
+  height: 26px;
+  background: #1d8cb8;
+  font-size: 12px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo h3,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo h3 {
+  color: #1d8cb8;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo .unstyled li .icon-ok,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo .unstyled li .icon-ok {
+  color: #1d8cb8;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo .icon-lock,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder .client-pre-email .emailInfo .icon-lock {
+  color: rgba(29, 140, 184, 0.2);
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-heading .accordion-toggle .icon-user,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-heading .accordion-toggle .icon-user {
+  color: #1d8cb8;
+  font-size: 18px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-heading .accordion-toggle span,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-heading .accordion-toggle span {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .box-client-info .box-client-info-pf .client-notice,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .box-client-info .box-client-info-pf .client-notice {
+  color: #000;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .btn-submit-wrapper #go-to-shipping,
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .btn-submit-wrapper #go-to-payment,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .btn-submit-wrapper #go-to-shipping,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #client-profile-data .client-profile-data .accordion-body .accordion-inner .box-step .box-edit .btn-submit-wrapper #go-to-payment {
+  background: #1d8cb8;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #shipping-data .shipping-data .accordion-heading .accordion-toggle,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #shipping-data .shipping-data .accordion-heading .accordion-toggle {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #shipping-data .shipping-data .accordion-heading .accordion-toggle .icon-home,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #shipping-data .shipping-data .accordion-heading .accordion-toggle .icon-home {
+  color: #1d8cb8;
+  font-size: 18px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #payment-data .accordion-group .accordion-heading .accordion-toggle .icon-credit-card,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #payment-data .accordion-group .accordion-heading .accordion-toggle .icon-credit-card {
+  color: #1d8cb8;
+  font-size: 18px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .orderform-template-holder #payment-data .accordion-group .accordion-heading .accordion-toggle span,
+.body-order-form .container-order-form .orderform-active .orderform-template .orderform-template-holder #payment-data .accordion-group .accordion-heading .accordion-toggle span {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.body-cart .container-order-form .orderform-active .orderform-template .mini-cart .cart-fixed h2,
+.body-order-form .container-order-form .orderform-active .orderform-template .mini-cart .cart-fixed h2 {
+  color: #000;
+  font-family: "Montserrat";
+  text-align: left;
+  padding: 10px 6px;
+}

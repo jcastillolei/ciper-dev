@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#header-mobile-top": {
+    "children": ["slider-layout#notification-bar"],
+    "props": {
+      "fullWidth": "true"
+    }
+  }
+}

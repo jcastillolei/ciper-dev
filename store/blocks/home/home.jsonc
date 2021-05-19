@@ -1,0 +1,420 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+       "rich-text#title-shelf-buscador",
+       "flex-layout.row#buscador-ciper",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "flex-layout.row#marcas",
+      "flex-layout.row#info-slider-home",
+      //"flex-layout.row#shelf-destacados"
+      "flex-layout.row#banner-home",
+      "flex-layout.row#shelf-mas-vendidos"
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#buscador-ciper":{
+    "children": ["flex-layout.col#buscador-left","flex-layout.col#buscador-middle","flex-layout.col#buscador-right"],
+    "props": {
+      "blockClass": "buscador-ciper"
+    }
+  },
+  "rich-text#title-shelf-buscador": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¿Qué necesitas?",
+      "textColor": "heading--help-message",
+      "font": "t-heading-3",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "flex-layout.col#buscador-left":{
+    "children": ["image#buscador-left","rich-text#title-busca-tu-vehiculo-left","search-bar#marca"],
+    "props": {
+      "blockClass": "buscador-ciper-left"
+    }
+  },
+  "image#buscador-left": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+    }
+  },
+  "rich-text#title-busca-tu-vehiculo-left": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Busca tu vehículo",
+      "textColor": "heading--help-message",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "search-bar#marca": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿qué vehículo deseas buscar?"
+    }
+  },
+
+  "flex-layout.col#buscador-middle":{
+    "children": ["image#buscador-middle","rich-text#title-busca-tu-vehiculo-middle","search-bar#sku"],
+    "props": {
+      "blockClass": "buscador-ciper-middle"
+    }
+  },
+  "image#buscador-middle": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+    }
+  },
+  "rich-text#title-busca-tu-vehiculo-middle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Buscar por VIN o SKU",
+      "textColor": "heading--help-message",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "search-bar#sku": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "Ingresar Código"
+    }
+  },
+  "flex-layout.col#buscador-right":{
+    "children": [],
+    "props": {
+      "blockClass": "buscador-ciper-right"
+    }
+  },
+  "flex-layout.row#marcas": {
+    "children": ["list-context.image-list#marcas"],
+    "props": {
+      "blockClass": "marcas"
+    }
+  },
+  "list-context.image-list#marcas": {
+    "children": ["slider-layout#marcas"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/nissan-logo.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-chevrolet.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-hyundai.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-kia.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-toyota.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-suzuki.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-mitsubishi.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-SsangYong.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-Mahindra.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://ciper.vteximg.com.br/arquivos/logo-Isuzu.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#marcas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 10,
+        "tablet": 10,
+        "phone": 5
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+
+  "flex-layout.row#info-slider-home": {
+    "children": [
+      "flex-layout.col#texto-info-home",
+      "flex-layout.col#slider-info-home"
+    ],
+    "props": {
+      "blockClass": "contenedor-info-slider-home"
+    }
+  },
+
+  "flex-layout.col#texto-info-home": {
+    "children": ["rich-text#texto-info-home"],
+    "props": {
+      "blockClass": "columna-texto-info-home",
+      "width": "35%"
+    }
+  },
+
+  "rich-text#texto-info-home": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Santiago, Rancagua, Chillán y Puerto Montt \n Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in \n [CONOCER MÁS](https://www.example.com)",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+
+  "flex-layout.col#slider-info-home": {
+    "children": ["slider-layout#info-home"],
+    "props": {
+      "blockClass": "columa-slider-info-home",
+      "width": "60%"
+    }
+  },
+
+  "slider-layout#info-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "info-card#info-home1",
+      "info-card#info-home2",
+      "info-card#info-home3"
+    ]
+  },
+
+  "info-card#info-home1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ciper.vteximg.com.br/arquivos/background-slider-home-infocard.jpg",
+      "headline": "Despacho Gratis\n Productos Carrocería",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#info-home2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ciper.vteximg.com.br/arquivos/background-slider-home-infocard.jpg",
+      "headline": "Despacho Gratis\n Productos Carrocería",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#info-home3": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ciper.vteximg.com.br/arquivos/background-slider-home-infocard.jpg",
+      "headline": "Despacho Gratis\n Productos Carrocería",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+
+  "flex-layout.row#shelf-destacados": {
+    "children": ["flex-layout.col#container-shelf-destacados"],
+    "props": {
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "flex-layout.col#container-shelf-destacados": {
+    "children": [
+      "flex-layout.row#title-destacados",
+      "flex-layout.row#content-shelf-destacados"
+    ]
+  },
+  "flex-layout.row#title-destacados": {
+    "children": ["rich-text#title-shelf-destacados"]
+  },
+  "rich-text#title-shelf-destacados": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Destacados",
+      "textColor": "heading--help-message",
+      "font": "t-heading-3",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "flex-layout.row#content-shelf-destacados": {
+    "children": ["list-context.product-list#shelf-home-destacados"],
+    "props": {
+      "blockClass": "content-shelf-destacados"
+    }
+  },
+  "list-context.product-list#shelf-home-destacados": {
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "maxItems": 25
+    }
+  },
+  "slider-layout#shelf-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home-slider"
+    }
+  },
+
+  "flex-layout.row#banner-home": {
+    "children": ["image#banner-home"],
+    "props": {
+      "blockClass": "banner-home"
+    }
+  },
+  "image#banner-home": {
+    "props": {
+      "src": "https://ciper.vteximg.com.br/arquivos/banner-home-ciper.jpg",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#shelf-mas-vendidos": {
+    "children": ["flex-layout.col#container-shelf-mas-vendidos"],
+    "props": {
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "flex-layout.col#container-shelf-mas-vendidos": {
+    "children": [
+      "flex-layout.row#title-mas-vendidos",
+      "flex-layout.row#content-shelf-mas-vendidos"
+    ]
+  },
+  "flex-layout.row#title-mas-vendidos": {
+    "children": ["rich-text#title-shelf-mas-vendidos"]
+  },
+  "rich-text#title-shelf-mas-vendidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Mas vendidos",
+      "textColor": "heading--help-message",
+      "font": "t-heading-3",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "flex-layout.row#content-shelf-mas-vendidos": {
+    "children": ["list-context.product-list#shelf-home-mas-vendidos"],
+    "props": {
+      "blockClass": "content-shelf-mas-vendidos"
+    }
+  },
+  "list-context.product-list#shelf-home-mas-vendidos": {
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "maxItems": 25
+    }
+  }
+}

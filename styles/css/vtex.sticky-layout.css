@@ -1,0 +1,10 @@
+.wrapper--sticky-header {
+  background-color: #fff;
+}
+
+.container--sticky-header :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

@@ -1,0 +1,89 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+          "flex-layout.row#preguntas-frecuentes"
+        ]
+    },
+    "flex-layout.row#preguntas-frecuentes": {
+        "children":[
+            "flex-layout.col#container-preguntas-frecuentes"
+        ],
+        "props": {
+            "blockClass": "preguntas-frecuentes"
+        }
+    },
+    "flex-layout.col#container-preguntas-frecuentes": {
+        "children":[
+            "rich-text#title-preguntas-frecuentes",
+            "rich-text#subtext-preguntas-frecuentes",
+            "rich-text#faq1",
+            "rich-text#faq2",
+            "rich-text#faq3",
+            "rich-text#faq4",
+            "rich-text#faq5",
+            "rich-text#faq6",
+            "rich-text#faq7",
+            "rich-text#faq8"
+        ]
+    },
+    "rich-text#title-preguntas-frecuentes": {
+        "props": {
+            "text": "Preguntas Frecuentes",
+            "blockClass": "title-preguntas-frecuentes"
+        }
+    },
+    "rich-text#subtext-preguntas-frecuentes":{
+        "props":{
+            "text": "En esta sección encontrará un listado con las preguntas más frecuentes que nuestros clientes realizan a diario, en el caso de que su consulta no se encuentre disponible, por favor envíenos su inquietud por correo electrónico o llámenos a nuestros teléfonos.",
+            "blockClass": "subtext-preguntas-frecuentes"
+        }
+    },
+    "rich-text#faq1": {
+        "props":{
+            "text": "### ¿Envío a regiones? \n Sí, CIPER despacha a regiones y a todas las comunas de Santiago.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq2": {
+        "props":{
+            "text": "### ¿No encuentro mi repuesto, puedo encargarlo? \n Sí, en algunos casos es posible que usted encargue sus repuestos, debe contactarse con un vendedor a través de nuestro teléfono 226949600 o a [ventas@ciper.cl](mailto:ventas@ciper.cl).",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq3": {
+        "props":{
+            "text": "### ¿Cuál es su horario de atención? \n Todas nuestras sucursales atienden en el siguiente horario: Lunes a Viernes de 9:00 a 17:30 hrs, y los Sábados de 9:00 a 13:00 hrs.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq4": {
+        "props":{
+            "text": "### ¿Cómo puedo asegurarme de haber realizado bien mi compra? \n Una vez hecho tu pedido, recibirás un e-mail de confirmación. Si no lo recibieses, ponte en contacto con nuestro Servicio de Atención al Cliente.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq5": {
+        "props":{
+            "text": "### ¿Puedo saber en qué estado se encuentra mi pedido? \n Sí. Accede al apartado *Pedidos realizados*  de *Tu Cuenta* y podrás ver el estado de tu pedido en tiempo real. \n En caso de que hayas realizado el pedido como invitado, puedes consultar el estado del mismo y gestionarlo desde el correo de confirmación.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq6": {
+        "props":{
+            "text": "### ¿Qué debo hacer si me llega un producto defectuoso? \n CIPER Repuestos sólo vende artículos nuevos, en perfecto estado, por lo que si, excepcionalmente, te llega un repuesto con alguna imperfección, ponte en contacto con nuestro Servicio de Atención al Cliente.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq7": {
+        "props":{
+            "text": "### ¿Qué debo hacer si me llega un artículo incorrecto? \n Si en alguna ocasión, por error, te llega un artículo que no has pedido, ponte en contacto con nuestro Servicio de Atención al Cliente.",
+            "blockClass": "text-faq"
+        }
+    },
+    "rich-text#faq8": {
+        "props":{
+            "text": "### ¿Cómo puedo contactar con el Servicio de Atención al Cliente? \n Puedes hacernos llegar tus consultas a través del teléfono 226949600 o de nuestro chat a través del siguiente correo sac@ciper.cl",
+            "blockClass": "text-faq"
+        }
+    }
+}

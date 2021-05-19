@@ -1,0 +1,163 @@
+{
+  "flex-layout.row#header-desktop-mid": {
+    "props": {
+      "blockClass": "menu-link-mid",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu-mid",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#mi-cuenta",
+      // "vtex.menu@2.x:menu#seguir-pedido-header",
+      "login",
+      "vtex.menu@2.x:menu#contacto-header"
+    ]
+  },
+  "flex-layout.col#category-menu-mid": {
+    "children": ["vtex.menu@2.x:menu#category-menu-mid"]
+  },
+  "vtex.menu@2.x:menu#category-menu-mid": {
+    "children": [
+      "menu-item#sucursales",
+      "menu-item#cotiza-por-whatsapp",
+      "menu-item#info-horario-atencion",
+      "menu-item#info-telefono"
+    ]
+  },
+
+  "menu-item#sucursales": {
+    "props": {
+      "id": "menu-item-category-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "sucursales",
+      "itemProps": {
+        "type": "custom",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#sucursales": {
+    "children": ["flex-layout.row#submenu-sucursales"]
+  },
+  "flex-layout.row#submenu-sucursales": {
+    "children": ["vtex.menu@2.x:menu#menu-items-sucursales"]
+  },
+  "vtex.menu@2.x:menu#menu-items-sucursales": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "items-sucursales"
+    },
+    "children": [
+      "menu-item#sucursal-1",
+      "menu-item#sucursal-2",
+      "menu-item#sucursal-3"
+    ]
+  },
+  "menu-item#sucursal-1": {
+    "props": {
+      "id": "menu-item-category-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategory-sucursal",
+      "itemProps": {
+        "type": "custom",
+        "href": "/sucursales/sucursal1",
+        "noFollow": false,
+        "tagTitle": "Sucursal 1",
+        "text": "Sucursal 1"
+      }
+    }
+  },
+  "menu-item#sucursal-2": {
+    "props": {
+      "id": "menu-item-category-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategory-sucursal",
+      "itemProps": {
+        "type": "custom",
+        "href": "/sucursales/sucursal2",
+        "noFollow": false,
+        "tagTitle": "Sucursal 2",
+        "text": "Sucursal 2"
+      }
+    }
+  },
+  "menu-item#sucursal-3": {
+    "props": {
+      "id": "menu-item-category-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategory-sucursal",
+      "itemProps": {
+        "type": "custom",
+        "href": "/sucursales/sucursal3",
+        "noFollow": false,
+        "tagTitle": "Sucursal 3",
+        "text": "Sucursal 3"
+      }
+    }
+  },
+
+  "menu-item#cotiza-por-whatsapp": {
+    "props": {
+      "id": "menu-item-cotiza-por-whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["item-menu-mid", "menu-item-whatsapp"],
+      "itemProps": {
+        "type": "external",
+        "href": "https://api.whatsapp.com/send?phone=56994076762",
+        "noFollow": false,
+        "tagTitle": "Cotiza por WhatsApp",
+        "text": "Cotiza por WhatsApp"
+      }
+    }
+  },
+
+  "menu-item#info-horario-atencion": {
+    "props": {
+      "id": "menu-item-horario-atencion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item-menu-mid",
+      "itemProps": {
+        "type": "custom",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Atención: Lunes a Viernes de 9:00 a 19:00 hrs. Sábados de 9:00 a 14:00 hrs",
+        "text": "Atención: Lunes a Viernes de 9:00 a 17:30 hrs. Sábados de 9:00 a 13:00 hrs"
+      }
+    }
+  },
+
+  "menu-item#info-telefono": {
+    "props": {
+      "id": "menu-item-info-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["item-menu-mid", "menu-item-fono"],
+      "itemProps": {
+        "type": "custom",
+        "href": "tel:+56226949600",
+        "noFollow": false,
+        "tagTitle": "Fono: +56226949600",
+        "text": "Fono: +56226949600"
+      }
+    }
+  }
+}

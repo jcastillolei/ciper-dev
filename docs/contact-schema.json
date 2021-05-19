@@ -1,0 +1,36 @@
+{
+  "title": "customer-contact",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email",
+      "title": "Correo"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 100,
+      "title": "Nombre"
+    },
+    "message": {
+      "type": "string",
+      "title": "Comentario"
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 50,
+      "title": "Teléfono"
+    },
+    "subject": {
+      "type": "string",
+      "title": "Tipo Consulta",
+      "enum": ["Dudas y consultas", "Postventa", "Reclamos"]
+    }
+  },
+  "requeried": ["email", "name", "message", "phone", "subject"],
+  "v-indexed": ["email"],
+  "v-security": {
+    "publicJsonSchema": true,
+    "allowGetAll": true
+  }
+}

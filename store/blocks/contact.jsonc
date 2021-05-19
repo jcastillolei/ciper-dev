@@ -1,0 +1,105 @@
+{
+  "store.custom#contact-us": {
+    "blocks": [
+      "flex-layout.row#contact"
+      //"flex-layout.row#contact-us-form"
+    ]
+  },
+  "flex-layout.row#contact": {
+    "children": [
+      "flex-layout.col#text-contact",
+      "flex-layout.col#contact-us-form"
+    ],
+    "props": {
+      "blockClass": "contact"
+    }
+  },
+  "flex-layout.col#text-contact": {
+    "children": ["rich-text#title-contact", "rich-text#contact"],
+    "props": {
+      "blockClass": "textColumn-contact",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-contact": {
+    "props": {
+      "text": "### Contáctanos",
+      "blockClass": "title-contact"
+    }
+  },
+  "rich-text#contact": {
+    "props": {
+      "text": "Casa Matriz: Av. Brasil #23, Santiago\n Teléfono: +56 2 2694 9600\n Mail: ventas@ciper.cl\n\n Horarios de Atención: Lunes a Viernes de 9:00 a 19:00 Hrs. Sábados de 9:00 a 14:00 Hrs.\n\n **Sucursales Santiago**\n Av. Brasil 23-A\n Av. Brasil 39-A\n Av. Brasil 39-B\n Av. Brasil 50\n A. Brasil 64-B\n Gran Avenida 7495\n ** Sucursales Regiones **\n Puerto Montt\n Urmeneta 991, Puerto Montt\n Rancagua\n Av. Ignacio Carrera Pinto 1055",
+      "blockClass": "about-contact"
+    }
+  },
+  /* Contact Form */
+  "flex-layout.row#contact-us-form": {
+    "props": {
+      "blockClass": "contact"
+    },
+    "children": ["flex-layout.col#contact-us-form"]
+  },
+  "flex-layout.col#contact-us-form": {
+    "children": ["form#contact-us"],
+    "props":{
+      "width": "55%",
+      "blockClass": "form-container"
+    }
+  },
+  "form#contact-us": {
+    "props": {
+      "entity": "CT",
+      "schema": "contact"
+    },
+    "blocks": ["form-success#contact-us"],
+    "children": [
+      "form-input.text#name",
+      "form-input.text#email",
+      "form-input.text#phone",
+      "form-input.dropdown#subject",
+      "form-input.textarea#message",
+      "form-submit#contact-us-submit"
+    ]
+  },
+  "form-success#contact-us": {
+    "children": ["rich-text#success-submit"]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "¡Gracias por enviar tu consulta! En breve te responderemos.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.dropdown#subject": {
+    "props": {
+      "pointer": "#/properties/subject"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "pointer": "#/properties/message"
+    }
+  },
+  "form-submit#contact-us-submit": {
+    "props": {
+      "label": "ENVIAR"
+    }
+  }
+}

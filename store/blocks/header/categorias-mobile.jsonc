@@ -1,0 +1,397 @@
+{
+    //ACCESORIOS
+    "menu-item#accesorios-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#accesorios-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#accesorios-mobile": {
+        "children": [
+          "flex-layout.row#submenu-accesorios-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-accesorios-mobile": {
+        "children":[
+            "menu#menu-accesorios-mobile"
+        ]
+    },
+    "menu#menu-accesorios-mobile":{
+        "props": {
+            "categoryId": 111,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //BATERIAS
+    "menu-item#baterias-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Baterias",
+            "text": "Baterias"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#baterias-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#baterias-mobile": {
+        "children": [
+          "flex-layout.row#submenu-baterias-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-baterias-mobile": {
+        "children":[
+            "menu#menu-baterias-mobile"
+        ]
+    },
+    "menu#menu-baterias-mobile":{
+        "props": {
+            "categoryId": 117,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //CARROCERIAS
+    "menu-item#carroceria-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Carrocería",
+            "text": "Carrocería"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#carroceria-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#carroceria-mobile": {
+        "children": [
+          "flex-layout.row#submenu-carroceria-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-carroceria-mobile": {
+        "children":[
+            "menu#menu-carroceria-mobile"
+        ]
+    },
+    "menu#menu-carroceria-mobile":{
+        "props": {
+            "categoryId": 66,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Dirección
+    "menu-item#direccion-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Dirección",
+            "text": "Dirección"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#direccion-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#direccion-mobile": {
+        "children": [
+          "flex-layout.row#submenu-direccion-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-direccion-mobile": {
+        "children":[
+            "menu#menu-direccion-mobile"
+        ]
+    },
+    "menu#menu-direccion-mobile":{
+        "props": {
+            "categoryId": 89,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Frenos
+    "menu-item#frenos-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Frenos",
+            "text": "Frenos"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#frenos-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#frenos-mobile": {
+        "children": [
+          "flex-layout.row#submenu-frenos-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-frenos-mobile": {
+        "children":[
+            "menu#menu-frenos-mobile"
+        ]
+    },
+    "menu#menu-frenos-mobile":{
+        "props": {
+            "categoryId": 79,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Lubricantes
+    "menu-item#lubricantes-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Lubricantes",
+            "text": "Lubricantes"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#lubricantes-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#lubricantes-mobile": {
+        "children": [
+          "flex-layout.row#submenu-lubricantes-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-lubricantes-mobile": {
+        "children":[
+            "menu#menu-lubricantes-mobile"
+        ]
+    },
+    "menu#menu-lubricantes-mobile":{
+        "props": {
+            "categoryId": 97,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Motor
+    "menu-item#motor-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Motor",
+            "text": "Motor"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#motor-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#motor-mobile": {
+        "children": [
+          "flex-layout.row#submenu-motor-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-motor-mobile": {
+        "children":[
+            "menu#menu-motor-mobile"
+        ]
+    },
+    "menu#menu-motor-mobile":{
+        "props": {
+            "categoryId": 2,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Ruedas
+    "menu-item#ruedas-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Ruedas",
+            "text": "Ruedas"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#ruedas-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#ruedas-mobile": {
+        "children": [
+          "flex-layout.row#submenu-ruedas-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-ruedas-mobile": {
+        "children":[
+            "menu#menu-ruedas-mobile"
+        ]
+    },
+    "menu#menu-ruedas-mobile":{
+        "props": {
+            "categoryId": 108,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Sistema Électrico
+    "menu-item#sistema-electrico-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Sistema Électrico",
+            "text": "Sistema Électrico"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#sistema-electrico-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#sistema-electrico-mobile": {
+        "children": [
+          "flex-layout.row#submenu-sistema-electrico-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-sistema-electrico-mobile": {
+        "children":[
+            "menu#menu-sistema-electrico-mobile"
+        ]
+    },
+    "menu#menu-sistema-electrico-mobile":{
+        "props": {
+            "categoryId": 52,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Suspensión
+    "menu-item#suspension-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Suspensón",
+            "text": "Suspensión"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#suspension-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#suspension-mobile": {
+        "children": [
+          "flex-layout.row#submenu-suspension-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-suspension-mobile": {
+        "children":[
+            "menu#menu-suspension-mobile"
+        ]
+    },
+    "menu#menu-suspension-mobile":{
+        "props": {
+            "categoryId": 41,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    },
+
+    //Transmisión
+    "menu-item#transmision-mobile": {
+        "props": {
+          "id": "menu-item-submenu-drawer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "Transmisión",
+            "text": "Transmisión"
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#transmision-mobile"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#transmision-mobile": {
+        "children": [
+          "flex-layout.row#submenu-transmision-mobile"
+        ]
+    },
+    "flex-layout.row#submenu-transmision-mobile": {
+        "children":[
+            "menu#menu-transmision-mobile"
+        ]
+    },
+    "menu#menu-transmision-mobile":{
+        "props": {
+            "categoryId": 27,
+            "orientation": "vertical",
+            "blockClass": "menu-item-mobile"
+        }
+    }
+}

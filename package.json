@@ -1,0 +1,27 @@
+{
+  "name": "vtex-ciper",
+  "version": "1.0.0",
+  "description": "Implementación de Vtex StoreFramework para ginebra",
+  "repository": "git@bitbucket.org:summasolutions/vtex-ginebra.git",
+  "author": "Arlud",
+  "private": true,
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2",
+    "sass": "^1.32.13"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "scripts": {
+    "sass": "node_modules/.bin/sass --watch --no-source-map styles/scss:styles/css",
+    "sass-react": "concurrently \"sass --watch --no-source-map styles/scss:styles/css\" \"sass --watch --no-source-map react/styles:react\"",
+    "no-link:sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css\" \"sass --watch --no-source-map react/styles:react\"",
+    "login": "vtex login ciper",
+    "release": "vtex release patch stable"
+  }
+}

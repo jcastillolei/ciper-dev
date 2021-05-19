@@ -1,0 +1,376 @@
+{
+    "store.custom#marcas-de-repuestos": {
+        "blocks": [
+          "flex-layout.row#marcas-de-repuestos"
+        ]
+    },
+    "flex-layout.row#marcas-de-repuestos": {
+        "children":[
+            "flex-layout.col#container-marcas-repuestos"
+        ],
+        "props": {
+            "blockClass": "marcas-de-repuestos"
+        }
+    },
+    "flex-layout.col#container-marcas-repuestos": {
+        "children":[
+            "rich-text#title-marcas-de-repuestos",
+            "flex-layout.row#content-marcas"
+        ]
+    },
+    "rich-text#title-marcas-de-repuestos": {
+        "props":{
+            "text": "Nuestras marcas",
+            "blockClass": "title-marcas-de-repuestos"
+        }
+    },
+    "flex-layout.row#content-marcas": {
+        "children":[
+            "flex-layout.col#content-marcas"
+        ],
+        "props":{
+            "blockClass": "content-marcas"
+        }
+    },
+    "flex-layout.col#content-marcas": {
+        "children":[
+            "flex-layout.row#row-marca-1",
+            "flex-layout.row#row-marca-2",
+            "flex-layout.row#row-marca-3",
+            "flex-layout.row#row-marca-4",
+            "flex-layout.row#row-marca-5",
+            "flex-layout.row#row-marca-6",
+            "flex-layout.row#row-marca-7",
+            "flex-layout.row#row-marca-8"
+        ],
+        "props":{
+            "blockClass": "content-marcas"
+        }
+    },
+    "flex-layout.row#row-marca-1": {
+        "children":[
+            "flex-layout.col#logo-marca-1",
+            "flex-layout.col#text-marca-1"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-1": {
+        "children":[
+            "image#landing-marca-1"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-1": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-555.jpg",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-1": {
+        "children":[
+            "rich-text#text-marca-1"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-1": {
+        "props":{
+            "text": "### 555 \n Autopartes de suspencion 100% manufacturadas en Japon y bajo lo mas altos estandares de calidad. Actualmente CIPER lleva 10 años como uno de los retail autorizados para comercializar productos 555, si usted necesita productos de suspension y necesita calidad, 555 es la opcion.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-2": {
+        "children":[
+            "flex-layout.col#logo-marca-2",
+            "flex-layout.col#text-marca-2"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-2": {
+        "children":[
+            "image#landing-marca-2"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-2": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-seiwa.png",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-2": {
+        "children":[
+            "rich-text#text-marca-2"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-2": {
+        "props":{
+            "text": "### SEIWA \n Cables de bujía 100% japoneses, resistentes a la humedad, temperaturas y vibraciones. Los cables de bujía son tremendamente importantes para asegurar una chispa eficiente en su motor, estos cables de bujía ofrecen en muchos casos una calidad superior a la OEM sugerida por el fabricante de su vehículo. Exija sus cables de bujía SEIWA en todas nuestras sucursales y locales asociados.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-3": {
+        "children":[
+            "flex-layout.col#logo-marca-3",
+            "flex-layout.col#text-marca-3"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-3": {
+        "children":[
+            "image#landing-marca-3"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-3": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-tama.png",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-3": {
+        "children":[
+            "rich-text#text-marca-3"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-3": {
+        "props":{
+            "text": "### TAMA \n TAMA es una empresa que tiene muchos años a su haber siendo comercializada en el mercado nacional, años, que avalan su calidad al momento elegir sus termostatos y termoswitches.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-4": {
+        "children":[
+            "flex-layout.col#logo-marca-4",
+            "flex-layout.col#text-marca-4"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-4": {
+        "children":[
+            "image#landing-marca-4"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-4": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-fic.jpg",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-4": {
+        "children":[
+            "rich-text#text-marca-4"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-4": {
+        "props":{
+            "text": "### FIC \n Actualmente la única y genuina alternativa japonesa cuando se trata de productos de freno, FIC se es una destacada fabrica japonesa para productos de embrague y frenos, siguiendo rigurosa y metódicamente las especificaciones OEM. Los productos FIC, aseguran un encaje y desempeño perfectos en su automóvil.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-5": {
+        "children":[
+            "flex-layout.col#logo-marca-5",
+            "flex-layout.col#text-marca-5"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-5": {
+        "children":[
+            "image#landing-marca-5"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-5": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-osk.png",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-5": {
+        "children":[
+            "rich-text#text-marca-5"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-5": {
+        "props":{
+            "text": "### OSK \n Con 15 de años de presencia en el mercado chileno, OSK ha demostrado ser el perfecto reemplazo para las partes de la distribución de su motor, ofreciendo desde el kit completo a engranajes por separado.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-6": {
+        "children":[
+            "flex-layout.col#logo-marca-6",
+            "flex-layout.col#text-marca-6"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-6": {
+        "children":[
+            "image#landing-marca-6"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-6": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-trc.jpg",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-6": {
+        "children":[
+            "rich-text#text-marca-6"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-6": {
+        "props":{
+            "text": "### TRC \n Bujes y gomas de suspensión y dirección. Los productos TRC son conocidos mundialmente, CIPER Repuestos en su afán de ofrecer productos de calidad tiene la representación de este prestigioso fabricante japones.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-7": {
+        "children":[
+            "flex-layout.col#logo-marca-7",
+            "flex-layout.col#text-marca-7"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-7": {
+        "children":[
+            "image#landing-marca-7"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-7": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-npw.png",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-7": {
+        "children":[
+            "rich-text#text-marca-7"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-7": {
+        "props":{
+            "text": "### NPW \n NISSAN WATER PUMP Co. compañía que en el pasado proveía equipamiento OEM a HONDA y NISSAN hoy ofrece sus productos directamente al consumidor final a través de CIPER Repuestos. NPW garantiza que sus productos siguen estrictamente las normas OEM dictadas por el fabricante de su automóvil.",
+            "blockClass": "text-marca"
+        }
+    },
+
+
+    "flex-layout.row#row-marca-8": {
+        "children":[
+            "flex-layout.col#logo-marca-8",
+            "flex-layout.col#text-marca-8"
+        ],
+        "props":{
+            "blockClass": "row-marca"
+        }
+    },
+    "flex-layout.col#logo-marca-8": {
+        "children":[
+            "image#landing-marca-8"
+        ],
+        "props":{
+            "blockClass": "landing-logo-marca",
+            "width": "20%"
+        }
+    },
+    "image#landing-marca-8": {
+        "props":{
+            "src": "https://ciper.vteximg.com.br/arquivos/logo-marca-top.png",
+            "maxHeight": 24,
+            "blockClass": "landing-logo-marca"
+        }
+    },
+    "flex-layout.col#text-marca-8": {
+        "children":[
+            "rich-text#text-marca-8"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+    "rich-text#text-marca-8": {
+        "props":{
+            "text": "### TOP \n Con mas de 20 años de experiencia, este fabricante ha comprobado su compromiso con la calidad y desempeño de sus productos, ofreciendo para el mercado nacional los primeros juegos de empaquetadura con retenes de válvulas manufacturados con Viton®. CIPER Repuestos lleva 11 años comercializando la marca en nuestro país, con nada mas que resultados positivos y clientes satisfechos.",
+            "blockClass": "text-marca"
+        }
+    }
+}

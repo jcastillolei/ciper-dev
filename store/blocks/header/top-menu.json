@@ -1,0 +1,92 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": ["menu-item#shop"]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Fono: +562434343434"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": ["menu-item#vtex-website"]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#seguir-pedido-header": {
+    "children": ["menu-item#seguir-pedido-header"]
+  },
+  "menu-item#seguir-pedido-header": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "SEGUIR MI PEDIDO "
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#mi-cuenta": {
+    "children": ["menu-item#mi-cuenta"]
+  },
+  "menu-item#mi-cuenta": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "MI CUENTA"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#contacto-header": {
+    "children": ["menu-item#contacto-header"]
+  },
+  "menu-item#contacto-header": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "CONTACTO"
+      }
+    }
+  }
+}

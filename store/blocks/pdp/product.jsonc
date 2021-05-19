@@ -1,0 +1,315 @@
+{
+  "store.product": {
+    "children": ["responsive-layout.desktop", "responsive-layout.mobile"]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "flex-layout.row#related-products"
+      // "shelf.relatedProducts",
+      // "product-questions-and-answers"
+    ]
+  },
+  "flex-layout.row#specifications-title": {
+    "children": ["rich-text#specifications"]
+  },
+  "rich-text#specifications": {
+    "props": {
+      "text": "##### Descripción y compatibilidad",
+      "blockClass": "title-specification-pdp"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "contenedor-principal-pdp"
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "40%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-right-pdp"
+    },
+    "children": [
+      "vtex.store-components:product-brand",
+      "flex-layout.row#product-name",
+      "flex-layout.row#code",
+      "flex-layout.row#ean",
+      "product-sku-attributes",
+      "product-rating-summary",
+      "flex-layout.row#contenedor-precio",
+      // "product-installments",
+      // "product-separator",
+      // "product-identifier.product",
+      "sku-selector",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "flex-layout.row#infocards-pdp",
+      "availability-subscriber",
+      "flex-layout.row#shipping-simulator"
+      // "share#default"
+    ]
+  },
+  "flex-layout.row#shipping-simulator": {
+    "children": ["disclosure-layout#simple"],
+    "props": {
+      "blockClass": "shipping-simulator"
+    }
+  },
+  "disclosure-layout#simple": {
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#shipping-simulator-button-text"]
+  },
+  "disclosure-content#simple": {
+    "children": ["shipping-simulator"]
+  },
+  "rich-text#shipping-simulator-button-text": {
+    "props": {
+      "text": "Calcular envío"
+    }
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "displayMode": "text"
+    }
+  },
+  "flex-layout.row#contenedor-precio": {
+    "children": [
+      "flex-layout.col#list-price-savings",
+      "flex-layout.col#selling-price"
+    ],
+    "props": {
+      "blockClass": "contenedor-precios"
+    }
+  },
+  "flex-layout.col#list-price-savings": {
+    "children": ["flex-layout.row#list-price-savings"]
+  },
+  "flex-layout.col#selling-price": {
+    "children": ["flex-layout.row#selling-price"]
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+  "flex-layout.row#code": {
+    "children": ["product-identifier.product"]
+  },
+  "flex-layout.row#ean": {
+    "children": ["product-identifier.product"]
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "row-buy-button-quantity"
+    },
+    "children": [
+      "product-quantity",
+      "flex-layout.col#btnaddminicart",
+      "flex-layout.col#btncheckoutpdp"
+    ]
+  },
+  "flex-layout.col#btnaddminicart": {
+    "children": ["add-to-cart-button#addminicart"],
+    "props": {
+      "blockClass": "btnaddminicart"
+    }
+  },
+  "flex-layout.col#btncheckoutpdp": {
+    "children": ["add-to-cart-button#checkout"],
+    "props": {
+      "blockClass": "btncheckoutpdp"
+    }
+  },
+  "add-to-cart-button#addminicart": {
+    "props": {
+      "isOneClickBuy": false,
+      "text": "Agregear al carro",
+      "blockClass": "addtocart"
+    }
+  },
+  "add-to-cart-button#checkout": {
+    "props": {
+      "isOneClickBuy": true,
+      "text": "Comprar",
+      "blockClass": "btncheckout"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "flex-layout.row#related-products": {
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 4,
+      "blockClass": "related-products"
+    },
+    "children": ["shelf.relatedProducts#View"]
+  },
+  "shelf.relatedProducts#View": {
+    "blocks": ["product-summary.shelf#home"],
+    "props": {
+      "recommendation": "editor.relatedProducts.view",
+      "productList": {
+        "maxItems": 40,
+        "itemsPerPage": 5,
+        "arrows": true,
+        "titleText": "Relacionados",
+        "minItemsPerPage": 2
+      },
+      "context": {
+        "paginationDotsVisibility": "hidden",
+        "maxItemsPerPage": 40,
+        "hideUnavailableItems": true
+      }
+    }
+  },
+  "flex-layout.row#infocards-pdp": {
+    "children": [
+      // "info-card#pdp-despacho",
+      // "info-card#pdp-sucursales"
+      "flex-layout.col#pdp-despacho",
+      "flex-layout.col#pdp-sucursales"
+    ],
+    "props": {
+      "blockClass": "infocards-pdp"
+    }
+  },
+  "flex-layout.col#pdp-despacho": {
+    "children": ["image#despacho-pdp", "rich-text#pdp-despacho"],
+    "props": {
+      "blockClass": "infocards-pdp"
+    }
+  },
+  "image#despacho-pdp": {
+    "props": {
+      "src": "https://ciper.vteximg.com.br/arquivos/ciper-icon-despacho-azul.png"
+    }
+  },
+  "rich-text#pdp-despacho": {
+    "props": {
+      "text": "Despacho a domicilio \n **Disponible**"
+    }
+  },
+  "flex-layout.col#pdp-sucursales": {
+    "children": ["image#sucursales-pdp", "rich-text#pdp-sucursales"],
+    "props": {
+      "blockClass": "infocards-pdp"
+    }
+  },
+  "image#sucursales-pdp": {
+    "props": {
+      "src": "https://ciper.vteximg.com.br/arquivos/ciper-icon-retiro-azul.png"
+    }
+  },
+  "rich-text#pdp-sucursales": {
+    "props": {
+      "text": "Retiro en tienda Santiago \n **Disponible**"
+    }
+  },
+  "info-card#pdp-despacho": {
+    "props": {
+      "id": "info-card-pdp",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ciper.vteximg.com.br/arquivos/ciper-icon-despacho-azul.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-pdp",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#pdp-sucursales": {
+    "props": {
+      "id": "info-card-pdp",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ciper.vteximg.com.br/arquivos/ciper-icon-retiro-azul.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-pdp",
+      "textAlignment": "center"
+    }
+  }
+}

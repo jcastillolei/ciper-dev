@@ -1,0 +1,17 @@
+@media (max-width: 980px) {
+  .drawerContent {
+    position: relative;
+  }
+  .drawerContent .closeIconContainer--drawer-mobile {
+    position: fixed;
+    left: 5%;
+    top: -40px;
+  }
+  .drawerContent .closeIconContainer--drawer-mobile .closeIconButton {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+  }
+}

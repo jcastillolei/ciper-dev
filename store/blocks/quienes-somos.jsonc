@@ -1,0 +1,33 @@
+{
+    "store.custom#quienes-somos": {
+        "blocks": [
+          "flex-layout.row#quienes-somos"
+        ]
+    },
+    "flex-layout.row#quienes-somos": {
+        "children":[
+            "flex-layout.col#container-quienes-somos"
+        ],
+        "props": {
+            "blockClass": "quienes-somos"
+        }
+    },
+    "flex-layout.col#container-quienes-somos": {
+        "children":[
+            "rich-text#title-quienes-somos",
+            "rich-text#text-quienes-somos"
+        ]
+    },
+    "rich-text#title-quienes-somos": {
+        "props":{
+            "text": "Quienes Somos",
+            "blockClass": "title-quienes-somos"
+        }
+    },
+    "rich-text#text-quienes-somos": {
+        "props":{
+            "text": "CIPER Repuestos es una empresa con más de 35 años de trayectoria especializada en la venta de repuestos automotrices originales y alternativos, importados directamente desde los principales países proveedores, como Japón, Corea, China, India, Alemana, EEUU, Brasil, entre otros. \n Con una fuerte presencia en el barrio Brasil, comuna de Santiago, CIPER Repuestos cuenta con seis tiendas, donde comercializa productos para diez marcas de vehículos: Nissan, Chevrolet, KIA, Hyundai, Toyota, Suzuki, Mitsubishi, SsangYong, Isuzu y Mahindra. \n Junto a las tiendas de la tradicional avenida Brasil, también se encuentran sus productos en Gran Avenida, Rancagua y Puerto Montt. Además, envía repuestos a todo Chile, a través de diferentes empresas de transporte con cobertura nacional. \n Enfocado 100% en la satisfacción total de sus clientes, CIPER Repuestos está permanentemente mejorando para que quienes nos prefieran, se encuentren con un servicio personalizado, garantizado y atención de postventa orientada en dar solución cumpliendo con todos los estándarcde las instituciones que regulan los derechos y obligaciones de los consumidores.",
+            "blockClass": "text-quienes-somos"
+        }
+    }
+}

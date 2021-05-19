@@ -1,0 +1,1537 @@
+.flexRowContent {
+  &--menu-link,
+  &--main-header {
+    padding: 0 0.5rem;
+    @media screen and (min-width: 40em) {
+      padding: 0 1rem;
+    }
+    @media screen and (min-width: 80rem) {
+      padding: 0 0.25rem;
+    }
+  }
+  &--menu-link {
+    background-color: #03044e;
+    color: #fff;
+    :global(.vtex-menu-2-x-styledLink) {
+      color: #ffffff;
+      font-size: 14px;
+    }
+  }
+  &--main-header {
+    background-color: #f0f0f0;
+    :global(.vtex-menu-2-x-styledLink) {
+      color: #727273;
+      font-size: 14px;
+    }
+  }
+  &--main-header-mobile {
+    align-items: center;
+    padding: 0.625rem 0.5rem;
+    background-color: #f0f0f0;
+  }
+  &--footer-newsletter {
+    border: 2px solid #f1f1f1;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #1d1d1b;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol {
+  &--filterCol {
+    max-width: 500px;
+    min-width: 230px;
+  }
+  &--productCountCol {
+    align-items: flex-start;
+  }
+
+  &--orderByCol {
+    align-items: flex-end;
+  }
+
+  &--orderByMobileCol {
+    width: 42%;
+  }
+
+  &--filterMobileCol {
+    width: 38%;
+  }
+
+  &--switcherMobileCol {
+    width: 20%;
+  }
+}
+.flexColChild--quickviewDetails {
+  &:first-child {
+    overflow-y: auto;
+    height: 66% !important;
+    overflow-x: hidden;
+  }
+  &:last-child {
+    height: 34% !important;
+  }
+}
+
+.flexRow--contenedor-info-slider-home {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+}
+
+.flexRowContent--contenedor-info-slider-home {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRow--marcas {
+  margin: 2rem 0;
+
+  :global(.vtex-store-components-3-x-container) {
+    padding: 1.5rem 0;
+    max-width: 1100px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+  }
+}
+
+.flexRow--header-top {
+  // background-color: #2088b1;
+  background-image: url("https://ciper.vteximg.com.br/arquivos/fondo-header-textura.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexRowContent--header-top {
+  display: flex;
+  justify-content: center;
+
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+.flexRow--menu-link-mid {
+  background-color: #1d1d1b;
+  color: #fff;
+  :global(.vtex-menu-2-x-styledLink) {
+    color: #fff;
+    font-size: 10px;
+    font-family: "Open-sans", sans-serif;
+    text-transform: uppercase;
+  }
+  .flexRowContent--menu-link-mid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 2rem;
+  }
+}
+
+.flexRowContent--main-header {
+  background-color: #fff;
+}
+
+.flexRow--deals {
+  display: none;
+}
+
+.flexRowContent--shelf-destacados,
+.flexRowContent--related-products {
+  margin: 2rem 0;
+
+  :global(.vtex-rich-text-0-x-paragraph--title-shelf-custom-single),
+  :global(.vtex-shelf-1-x-title) {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .flexRow--content-shelf-mas-vendidos,
+  .flexRow--content-shelf-destacados,
+  :global(.vtex-shelf-1-x-sliderContainer) {
+    :global(.vtex-slider-0-x-dotsContainer) {
+      position: absolute;
+      top: -2.4rem;
+      display: flex;
+      height: 1rem;
+      width: 6rem;
+      align-items: center;
+      right: 1rem;
+      left: auto;
+      margin: 0;
+      min-width: auto;
+      justify-content: center;
+      padding-top: 0;
+
+      :global(.vtex-shelf-1-x-dot) {
+        background-color: rgba($color: #1d1d1b, $alpha: 0.33);
+      }
+      :global(.vtex-shelf-1-x-dot--isActive) {
+        background-color: rgba($color: #1d1d1b, $alpha: 1);
+      }
+    }
+    :global(.vtex-shelf-1-x-arrow) {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      width: 2rem;
+      height: 2rem;
+      top: -2rem;
+
+      &:global(.vtex-shelf-1-x-arrowLeft) {
+        outline: none;
+        right: 10rem;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -2rem;
+        :global(.vtex-shelf-1-x-caretIcon) {
+          width: 1rem;
+        }
+      }
+      &:global(.vtex-shelf-1-x-arrowRight) {
+        outline: none;
+        right: 2rem;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -2rem;
+        :global(.vtex-shelf-1-x-caretIcon) {
+          width: 1rem;
+        }
+      }
+    }
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-home-slider) {
+      position: relative;
+      padding: 0 !important;
+
+      :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf-home-slider) {
+        margin-top: 1rem;
+      }
+
+      :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+        position: absolute;
+        top: -1.5rem;
+        display: flex;
+        height: 1rem;
+        width: 6rem;
+        align-items: center;
+        right: 4rem;
+        left: auto;
+        margin: 0;
+        min-width: auto;
+
+        :global(.vtex-slider-layout-0-x-paginationDot) {
+          background-color: rgba($color: #1d1d1b, $alpha: 0.33);
+        }
+        :global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+          background-color: rgba($color: #1d1d1b, $alpha: 1);
+        }
+      }
+
+      :global(.vtex-slider-layout-0-x-sliderArrows) {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 2rem;
+        height: 2rem;
+        top: -2rem;
+
+        :global(.vtex-slider-layout-0-x-caretIcon) {
+          width: 1rem;
+        }
+        &:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+          right: 10rem;
+          left: auto;
+        }
+
+        &:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+          right: 2rem;
+          left: auto;
+        }
+      }
+
+      @media (max-width: 980px) {
+        :global(.vtex-slider-layout-0-x-sliderLeftArrow),
+        :global(.vtex-slider-layout-0-x-sliderRightArrow),
+        :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.flexRow--banner-home {
+  margin: 2rem 0;
+
+  :global(.vtex-store-components-3-x-container) {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.flexRowContent--search-content {
+  :global(.vtex-search-result-3-x-gallery) {
+    justify-content: space-between;
+  }
+}
+
+.flexRow--footer-newsletter {
+  background-image: url("https://ciper.vteximg.com.br/arquivos/background-bottom-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 338px;
+  align-items: flex-end;
+  display: flex;
+  margin-bottom: 0 !important;
+  margin-top: -12rem;
+  @media screen and (max-width: 40em) {
+    margin-top: 0;
+  }
+
+  :global(.vtex-store-components-3-x-container) {
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+}
+
+:global(.vtex-menu-2-x-menuContainer--links-left) {
+  :global(.vtex-menu-2-x-menuItem) {
+    border-right: 1px solid #fff;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    :global(.vtex-menu-2-x-styledLinkContainer) {
+      padding: 0;
+    }
+  }
+}
+
+:global(.vtex-store-components-3-x-logoImage) {
+  margin-top: -4.2rem;
+  width: 220px;
+}
+
+:global(.vtex-minicart-2-x-minicartContainer) {
+  :global(.vtex-minicart-2-x-minicartIconContainer) {
+    &::before {
+      content: "";
+      width: 1.5rem;
+      height: 1.5rem;
+      display: block;
+      background-image: url("https://ciper.vteximg.com.br/arquivos/ciper-icon-shopingcart.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      @media (max-width: 980px) {
+        background-image: url("https://ciper.vteximg.com.br/arquivos/minicart-mobile-ciper.png");
+      }
+    }
+
+    :global(.vtex-minicart-2-x-cartIcon) {
+      display: none;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  :global(.vtex-menu-2-x-menuContainerNav--links-left) {
+    :global(.vtex-menu-2-x-styledLink) {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 0.8;
+      color: #000;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.flexRowContent--header-top {
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--notification-bar) {
+    :global(.vtex-slider-layout-0-x-sliderArrows) {
+      &:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+        &::before {
+          content: "";
+          width: 1rem;
+          height: 1.5rem;
+          background-image: url("https://ciper.vteximg.com.br/arquivos/ciper-icon-arrow-left.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+
+      &:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+        &::before {
+          content: "";
+          width: 1rem;
+          height: 1.5rem;
+          background-image: url("https://ciper.vteximg.com.br/arquivos/ciper-icon-arrow-right.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+
+      :global(.vtex-slider-layout-0-x-caretIcon) {
+        display: none;
+      }
+    }
+  }
+}
+
+.flexCol--info-right-pdp {
+  :global(.vtex-store-components-3-x-productNameContainer) {
+    :global(.vtex-store-components-3-x-productBrand) {
+      font-size: 1.1rem;
+      font-family: "Montserrat";
+    }
+  }
+  :global(.vtex-store-components-3-x-productBrandName) {
+    text-transform: capitalize !important;
+    color: #1d8cb8;
+    font-family: "Gotham";
+    font-size: 0.8rem;
+  }
+}
+
+.flexRow--row-buy-button-quantity {
+  .stretchChildrenWidth {
+    width: auto !important;
+
+    :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+      margin-bottom: 0;
+      align-items: center;
+      display: flex;
+      :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+        display: none;
+      }
+
+      :global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+        :global(.vtex-numeric-stepper__input) {
+          border: none;
+        }
+
+        :global(.vtex-numeric-stepper__plus-button),
+        :global(.vtex-numeric-stepper__minus-button) {
+          background: #fff;
+          width: 2rem !important;
+          height: 2rem !important;
+          border: 1px solid #000;
+          border-radius: 50% !important;
+
+          :global(.vtex-numeric-stepper__minus-button__text),
+          :global(.vtex-numeric-stepper__plus-button__text) {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flexCol--btnaddminicart {
+  width: 230px !important;
+  height: 34px;
+
+  :global(.vtex-button) {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "Montserrat";
+    border-radius: 20px;
+  }
+}
+
+.flexCol--btncheckoutpdp {
+  width: 230px !important;
+  height: 34px;
+
+  :global(.vtex-button) {
+    background-color: #ff9933;
+    border: 1px solid #ff9933;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "Montserrat";
+    border-radius: 20px;
+  }
+}
+
+.flexRowContent--contenedor-principal-pdp {
+  border-bottom: 2px solid #ececec;
+}
+
+.flexRow--infocards-pdp {
+  .stretchChildrenWidth {
+    width: auto !important;
+
+    .flexCol--infocards-pdp {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .flexColChild--infocards-pdp {
+        align-items: center;
+        display: flex;
+        :global(.vtex-store-components-3-x-imageElement) {
+          width: 24px;
+          height: auto;
+          margin-right: 0.8rem;
+        }
+
+        :global(.vtex-rich-text-0-x-paragraph) {
+          font-size: 0.8rem;
+          line-height: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.flexRowContent--contenedor-precios {
+  .stretchChildrenWidth {
+    width: auto !important;
+
+    &:first-child {
+      margin-right: 4rem;
+    }
+
+    .flexColChild {
+      align-items: center;
+      display: flex;
+
+      .flexRowContent--list-price-savings {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+
+        :global(.vtex-product-price-1-x-listPrice) {
+          &::before {
+            content: "Antes";
+            margin-right: 0.2rem;
+            text-transform: uppercase;
+          }
+          font-size: 0.8rem;
+          font-family: "Gotham";
+          color: #666666;
+          font-weight: 400;
+          letter-spacing: 1px;
+          margin-bottom: 0;
+
+          :global(.vtex-product-price-1-x-listPriceValue) {
+            text-decoration: none;
+          }
+        }
+      }
+
+      .flexRowContent--selling-price {
+        margin-bottom: 0;
+        :global(.vtex-product-price-1-x-sellingPriceValue) {
+          &::before {
+            content: "Oferta";
+            margin-right: 0.2rem;
+            letter-spacing: 1px;
+          }
+          color: #f3111e;
+          font-size: 1.2rem;
+          font-family: "Gotham";
+        }
+      }
+    }
+  }
+}
+.flexRow--filterMobileCol {
+  :global(.vtex-store-components-3-x-container) {
+    .flexRowContent--filterMobileCol {
+      background: #d9d9d9;
+      border-radius: 3px;
+      :global(.vtex-search-result-3-x-filterPopupButton) {
+        padding: 0;
+        height: 30px;
+      }
+      :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+        display: none;
+      }
+    }
+  }
+}
+
+.flexRowContent--related-products {
+  :global(.vtex-shelf-1-x-title) {
+    margin-bottom: 10px;
+  }
+  :global(.vtex-shelf-1-x-slide) {
+    border: 1px solid rgb(198, 198, 197);
+    border-radius: 6px;
+    margin: 0px 1rem;
+    padding: 0px 0.8rem;
+    background-color: rgba(255, 255, 255, 0.66);
+
+    :global(.vtex-product-summary-2-x-brandName) {
+      font-size: 12px;
+      font-weight: bold;
+      font-family: "Montserrat";
+    }
+
+    .flexRow--selling-price-savings-related {
+      :global(.vtex-product-price-1-x-sellingPrice) {
+        color: #3f3f40;
+        font-size: 1.25rem;
+
+        :global(.vtex-product-price-1-x-sellingPriceValue) {
+          color: #ff0033;
+          font-family: "OpenSans";
+          font-size: 12px;
+          font-weight: 600;
+
+          &::before {
+            content: "Oferta: ";
+          }
+        }
+      }
+    }
+
+    :global(.vtex-product-price-1-x-listPrice--summary) {
+      text-decoration: none;
+      :global(.vtex-product-price-1-x-currencyContainer--summary) {
+        text-decoration: none;
+        color: #6f6f6e;
+        font-family: "OpenSans";
+        font-size: 12px;
+        font-weight: 400;
+        &::before {
+          content: "Antes: ";
+        }
+      }
+    }
+
+    :global(.vtex-product-summary-2-x-buyButtonContainer) {
+      :global(.vtex-button) {
+        background-color: #6f6f6e;
+        border-color: #6f6f6e;
+        width: 111px;
+        height: 25px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 40px;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.5s;
+
+        :global(.vtex-button__label) {
+          padding: 0 !important;
+          height: 25px;
+          font-size: 12px;
+          font-family: "Montserrat";
+          font-weight: Bold;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+  padding: 0 !important;
+  opacity: 1 !important;
+
+  :global(.vtex-rich-text-0-x-container--button-open-quickview) {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #1d8cb8;
+    font-family: "Montserrat";
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
+:global(.vtex-modal-layout-0-x-container--quickview) {
+  background-color: rgba(102, 102, 102, 0.5);
+
+  :global(.vtex-modal-layout-0-x-paper) {
+    padding: 2rem;
+    position: relative;
+
+    :global(.vtex-modal-layout-0-x-headerContainer) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      background-color: #1d8cb8;
+
+      :global(.vtex-modal-layout-0-x-closeButtonContainer) {
+        width: 2rem;
+        height: 2rem;
+
+        :global(.vtex-modal-layout-0-x-closeButton) {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .flexRow--contenedor-principal-pdp {
+    width: 90%;
+    margin: 0 auto;
+
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+
+      .stretchChildrenWidth {
+        :global(.vtex-stack-layout-0-x-stackContainer--product) {
+          width: 70%;
+
+          :global(.vtex-store-components-3-x-productImagesGallerySlide) {
+            width: 100% !important;
+          }
+        }
+
+        .flexCol--info-right-pdp {
+          .flexRowContent--contenedor-precios {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+
+          .flexRowContent--row-buy-button-quantity {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .stretchChildrenWidth {
+              margin-bottom: 1rem;
+
+              :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+                position: absolute;
+                width: 30%;
+                left: 0;
+                top: 50%;
+                transform: translate(0%, -50%);
+                :global(.vtex-numeric-stepper__input) {
+                  width: 30px;
+                }
+
+                :global(.vtex-numeric-stepper__plus-button-container),
+                :global(.vtex-numeric-stepper__minus-button-container) {
+                  align-items: center;
+                  display: flex;
+                  :global(.vtex-numeric-stepper__plus-button),
+                  :global(.vtex-numeric-stepper__minus-button) {
+                    width: 1.5rem !important;
+                    height: 1.5rem !important;
+                  }
+                }
+              }
+            }
+          }
+
+          .flexRow--infocards-pdp {
+            .flexRowContent--infocards-pdp {
+              padding-bottom: 1.5rem;
+              margin-bottom: 1.5rem;
+              border-bottom: 1px solid #ececec;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+
+              .stretchChildrenWidth {
+                width: 50% !important;
+
+                :global(.vtex-rich-text-0-x-paragraph) {
+                  font-size: 0.7rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  :global(.vtex-rich-text-0-x-container--title-specification-pdp) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    :global(.vtex-rich-text-0-x-heading--title-specification-pdp) {
+      margin-bottom: 0.5rem;
+      font-family: "Montserrat";
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+  }
+
+  .flexRow--productSpecificationGroup {
+    margin-bottom: 1.5rem;
+  }
+}
+
+:global(.vtex-product-summary-2-x-buyButtonContainer) {
+  :global(.vtex-button__label) {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+  }
+}
+
+.flexRowContent--contenedor-precios-search {
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+}
+
+.flexCol--container-bread-order {
+  display: flex;
+  flex-direction: row;
+
+  .flexColChild--container-bread-order {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 2rem;
+
+    :global(.vtex-breadcrumb-1-x-container) {
+      margin-bottom: 0;
+
+      :global(.vtex-breadcrumb-1-x-link) {
+        color: #1d8cb8;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 0.7rem;
+      }
+    }
+
+    .flexRow--orderBy {
+      :global(.vtex-search-result-3-x-orderByButton) {
+        width: 182px;
+        height: 20px;
+        padding: 0 1rem;
+        margin: 0;
+        border: 1px solid #868686;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        transition-duration: 0.4s;
+
+        &:hover {
+          border-color: #1d8cb8;
+        }
+
+        :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+          padding-right: 0;
+        }
+
+        :global(.vtex-search-result-3-x-filterPopupTitle) {
+          font-size: 0.6rem;
+          font-family: "Montserrat";
+          text-transform: capitalize;
+          font-weight: 400 !important;
+          color: #868686;
+        }
+        :global(.vtex-search-result-3-x-orderByText) {
+          font-size: 0.6rem;
+          font-family: "Montserrat";
+          text-transform: capitalize;
+          font-weight: 400;
+          color: #868686;
+        }
+      }
+    }
+  }
+}
+
+.flexRowContent--result-container {
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 980px) {
+  .flexRow--header-top {
+    background-color: #1f7292;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    .flexRowContent--header-top {
+      .stretchChildrenWidth {
+        position: inherit !important;
+        right: auto !important;
+        top: auto !important;
+        justify-content: center;
+        display: flex;
+        width: 100% !important;
+
+        :global(.vtex-slider-layout-0-x-sliderLayoutContainer--notification-bar) {
+          margin-right: 0;
+          margin-left: 0;
+
+          :global(.vtex-rich-text-0-x-paragraph) {
+            margin: 0;
+            font-size: 0.6rem;
+          }
+        }
+        :global(.vtex-slider-layout-0-x-sliderLeftArrow),
+        :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+          &::before {
+            width: 0.5rem;
+            height: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .flexRow--header-mid-mobile {
+    background-color: #2088b1;
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+      width: 90%;
+      margin: 0 auto;
+
+      .flexRowContent--header-mid-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .stretchChildrenWidth {
+          width: auto !important;
+
+          :global(.vtex-store-components-3-x-logoLink) {
+            :global(.vtex-store-components-3-x-logoContainer) {
+              padding: 0;
+
+              :global(.vtex-store-components-3-x-logoImage) {
+                margin-top: 0;
+                width: 120px;
+              }
+            }
+          }
+        }
+        :global(.vtex-minicart-2-x-minicartContainer) {
+          :global(.vtex-minicart-2-x-openIconContainer) {
+            padding: 0;
+
+            :global(.vtex-button) {
+              margin: 0;
+              border: none;
+
+              :global(.vtex-button__label) {
+                padding: 0;
+
+                :global(.vtex-minicart-2-x-cartIcon) {
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+        :global(.vtex-store-components-3-x-searchBarContainer) {
+          min-width: auto;
+          padding: 0;
+          align-items: center;
+          display: flex;
+          width: 100%;
+          margin-right: 1rem;
+
+          :global(.vtex-store-components-3-x-autoCompleteOuterContainer) {
+            :global(.vtex-input) {
+              :global(.vtex-input-prefix__group) {
+                height: 25px;
+                border: none;
+
+                :global(.vtex-styleguide-9-x-input) {
+                  font-size: 10px;
+                }
+                :global(.vtex-input__suffix) {
+                  padding-right: 0.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .flexRow--header-row-bottom-mobile {
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+      width: 90%;
+      margin: 0 auto;
+      height: 3rem;
+      align-items: center;
+      display: flex;
+
+      .stretchChildrenWidth {
+        width: auto !important;
+
+        :global(.vtex-store-drawer-0-x-openIconContainer) {
+          padding: 0;
+          display: flex;
+          align-items: center;
+
+          &::after {
+            content: "MENU";
+            font-family: "Montserrat";
+            font-weight: bold;
+            font-size: 19px;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+
+      .flexRowContent--header-row-bottom-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .flexCol--links-menu-bottom-mobile {
+          display: flex;
+          flex-direction: row;
+
+          :global(.vtex-menu-2-x-styledLinkContainer) {
+            margin: 0 0 0 1rem;
+
+            :global(.vtex-menu-2-x-styledLinkContent) {
+              font-size: 0.7rem;
+              text-transform: uppercase;
+              font-family: "Montserrat";
+              font-weight: bold;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  :global(.vtex-store-drawer-0-x-drawer) {
+    height: calc(100vh - 120px);
+    width: 100vw !important;
+    max-width: auto !important;
+    top: 120px;
+  }
+
+  :global(.vtex-store-drawer-0-x-overlay) {
+    height: calc(100vh - 120px);
+    width: 100vw !important;
+    max-width: auto !important;
+    top: 120px;
+  }
+
+  .flexRow--container-menu-drawer {
+    width: 90%;
+    margin: 0 auto;
+
+    :global(.vtex-menu-2-x-menuItem) {
+      padding: 1rem 0;
+      border-bottom: 1px solid #b1b1b1;
+
+      &:first-child {
+        border-top: 1px solid #b1b1b1;
+      }
+
+      :global(.vtex-menu-2-x-styledLinkContainer) {
+        margin: 0;
+        padding: 0;
+
+        :global(.vtex-menu-2-x-styledLinkContent) {
+          font-size: 1.2rem;
+          font-family: "Montserrat";
+          font-weight: bold;
+          color: #000;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .flexRow--productSpecificationGroup {
+    :global(.vtex-store-components-3-x-container) {
+      max-height: 500px;
+      overflow: auto;
+    }
+  }
+}
+
+.flexRow--header-mid-mobile {
+  position: relative;
+  :global(.vtex-store-components-3-x-container) {
+    .flexCol--logo-mobile {
+      position: absolute;
+      left: 0;
+      width: auto !important;
+
+      :global(.vtex-store-components-3-x-logoImage) {
+        height: 40px;
+        width: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .flexRow--links-row-botton-drawer {
+    .flexRowContent--links-row-botton-drawer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: wrap;
+      max-height: 150px;
+      margin-top: 2rem;
+
+      .stretchChildrenWidth {
+        width: 50% !important;
+      }
+      :global(.vtex-menu-2-x-menuItem) {
+        border: none;
+        padding: 0.5rem 0;
+      }
+    }
+  }
+}
+
+.flexRow--contact {
+  margin-top: 2rem;
+  margin-bottom: 14rem;
+
+  :global(.vtex-store-components-3-x-container) {
+    width: 100%;
+    max-width: 97%;
+    padding: 0;
+    @media (max-width: 980px) {
+      width: 90%;
+    }
+
+    .flexRowContent--contact {
+      max-width: 100%;
+
+      .flexCol--textColumn-contact {
+        :global(.vtex-rich-text-0-x-heading--title-contact) {
+          margin-top: 0;
+          font-family: "Montserrat";
+          color: #000;
+        }
+        :global(.vtex-rich-text-0-x-container--about-contact) {
+          font-family: "Montserrat";
+          font-weight: bold;
+          font-size: 0.9rem;
+          color: #000;
+
+          :global(.vtex-rich-text-0-x-link--about-contact) {
+            color: #000;
+          }
+
+          :global(.vtex-rich-text-0-x-strong--about-contact) {
+            font-size: 1.1rem;
+          }
+        }
+      }
+
+      .flexColChild--form-container {
+        :global(.vtex-input) {
+          width: 48%;
+          @media (max-width: 980px) {
+            width: 100%;
+            margin-bottom: 2rem;
+          }
+          :global(.vtex-input__label) {
+            font-family: "Montserrat";
+            color: #000;
+            font-size: 0.9rem;
+            font-weight: bold;
+          }
+          :global(.vtex-input-prefix__group) {
+            width: 100%;
+            border-radius: 40px;
+            background-color: #f1f1f1;
+            border-color: #f1f1f1;
+
+            :global(.vtex-styleguide-9-x-input) {
+              background-color: #f1f1f1;
+            }
+          }
+        }
+        :global(.vtex-dropdown) {
+          width: 48%;
+          @media (max-width: 980px) {
+            width: 100%;
+            margin-bottom: 2rem;
+          }
+
+          :global(.vtex-dropdown__container) {
+            width: 100%;
+            border-radius: 40px;
+            background: #f1f1f1;
+            border-color: #f1f1f1;
+
+            & :first-child {
+              width: 100%;
+              flex-wrap: nowrap;
+            }
+          }
+          :global(.vtex-dropdown__label) {
+            font-family: "Montserrat";
+            color: #000;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 0;
+            max-height: 16px;
+            @media (max-width: 980px) {
+              margin-bottom: 8px;
+            }
+          }
+        }
+        :global(.vtex-textarea) {
+          width: 100%;
+          :global(.vtex-textarea__label) {
+            font-family: "Montserrat";
+            color: #000;
+            font-size: 0.9rem;
+            font-weight: bold;
+          }
+          :global(.vtex-textarea__input) {
+            resize: block !important;
+            border-color: #f1f1f1;
+            background: #f1f1f1;
+          }
+        }
+
+        :global(.vtex-store-form-0-x-formSubmitButton) {
+          :global(.vtex-button) {
+            color: #fff;
+            background-color: #ff9933;
+            width: 230px;
+            height: 30px;
+            display: flex;
+            border-radius: 20px;
+            justify-content: center !important;
+            align-items: center;
+            margin-top: 1.2rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: bold;
+            font-family: "Akrobat";
+            border-color: #ff9933;
+            @media (max-width: 980px) {
+              width: 90vw;
+              margin: 0 auto;
+            }
+          }
+        }
+        @media (max-width: 980px) {
+          :global(.vtex-store-form-0-x-formSubmitContainer) {
+            margin: 0 auto;
+          }
+        }
+      }
+      .flexColChild--form-container:first-child :first-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.flexColChild--form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & :first-child {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flexRow--main-header {
+    position: relative;
+
+    :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
+      top: 80px;
+      height: 500px;
+      overflow: hidden;
+      background: #fff;
+      z-index: 9;
+    }
+
+    .flexRowContent--submenucontenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .stretchChildrenWidth {
+        width: 20% !important;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+.flexRow--container-menu-drawer {
+  :global(.vtex-menu-2-x-menuItem) {
+    :global(.vtex-menu-2-x-submenuAccordion) {
+      margin-top: 0.5rem;
+      :global(.vtex-menu-2-x-styledLinkContent--menu-item-mobile) {
+        font-family: "Montserrat";
+        font-weight: normal;
+        font-size: 0.9rem;
+        color: #6f6f6e;
+        margin-bottom: 0.5rem;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.flexRow--contenedorbotoncomprarshelf {
+  :global(.vtex-button) {
+    background-color: #6f6f6e;
+    border-color: #6f6f6e;
+    width: 111px;
+    height: 25px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 40px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    :global(.vtex-button__label) {
+      padding: 0 !important;
+      height: 25px;
+      font-size: 12px;
+      font-family: "Montserrat";
+      font-weight: Bold;
+      text-transform: capitalize;
+    }
+
+    &:hover {
+      background-color: #ff9933;
+      border-color: #ff9933;
+    }
+  }
+}
+
+.flexRow--container-sucursales {
+  margin-bottom: 18rem;
+
+  :global(.vtex-store-locator-0-x-storesMapCol) {
+    height: 700px;
+  }
+
+  :global(.vtex-store-locator-0-x-addressListLink) {
+    display: none;
+  }
+  :global(.vtex-store-locator-0-x-addressListItem) {
+    &:hover {
+      background-color: #2088b1;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flexRow--container-sucursales {
+    margin-bottom: 4rem;
+  }
+  :global(.vtex-store-locator-0-x-container) {
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-store-locator-0-x-storesMapCol) {
+    width: 100%;
+    height: 350px;
+  }
+  :global(.vtex-store-locator-0-x-storesListCol) {
+    width: 100%;
+    :global(.vtex-store-locator-0-x-addressList) {
+      padding: 0;
+    }
+  }
+
+  .flexCol--landing-logo-marca {
+    margin-bottom: 1rem;
+  }
+  .flexColChild--content-marcas {
+    margin-bottom: 2rem;
+  }
+}
+
+.flexRow--marcas-de-repuestos {
+  margin-bottom: 14rem;
+}
+
+.flexColChild--landing-logo-marca {
+  max-width: 85%;
+
+  :global(.vtex-store-components-3-x-imageElement--landing-logo-marca) {
+    max-height: 100%!important;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+}
+
+.flexColChild--content-marcas {
+  margin-bottom: 1.5rem;
+}
+
+.flexRowContent--row-marca {
+  justify-content: space-between;
+}
+.flexRowContent--shipping-simulator {
+  .stretchChildrenWidth {
+    flex-direction: column;
+    :global(.vtex-disclosure-layout-1-x-trigger) {
+      background-color: #fff;
+      border: 1px solid #2980ad;
+      border-radius: 20px;
+      width: fit-content;
+      outline: none;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      cursor: pointer;
+      padding: 0;
+      &:hover {
+        background-color: #2980ad;
+      }
+    }
+    :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+      :global(.vtex-rich-text-0-x-paragraph) {
+        font-size: 0;
+        &::before {
+          content: "Ocultar";
+          margin: 0;
+          font-family: "Montserrat";
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          padding: 5px 10px;
+          font-weight: 500;
+        }
+      }
+    }
+    :global(.vtex-disclosure-layout-1-x-content) {
+      padding: 5px 10px;
+    }
+    :global(.vtex-rich-text-0-x-paragraph) {
+      margin: 0;
+      font-family: "Montserrat";
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      color: #2980ad;
+      padding: 5px 10px;
+      font-weight: 500;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+.flexRow--preguntas-frecuentes,
+.flexRow--quienes-somos {
+  margin-bottom: 14rem;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRow--preguntas-frecuentes,
+  .flexRow--quienes-somos {
+    margin-bottom: 0;
+  }
+}

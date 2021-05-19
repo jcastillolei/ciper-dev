@@ -1,0 +1,128 @@
+{
+    "flex-layout.col#nav-landing": {
+        "children": [
+            "flex-layout.row#container-menu-landing"
+        ],
+        "props": {
+            "blockClass": "container-menu-landings",
+            "width": "20%"
+        }
+    },
+    "flex-layout.row#container-menu-landing": {
+        "children":[
+            "rich-text#title-menu-landing",
+            "flex-layout.col#menu-item-term",
+            "flex-layout.col#menu-item-politicas",
+            "flex-layout.col#menu-item-contacto",
+            "flex-layout.col#menu-item-devoluciones"
+        ],
+        "props":{
+            "blockClass": "menu-landing"
+        }
+    },
+    "rich-text#title-menu-landing": {
+        "props":{
+            "text": "Ayuda",
+            "blockClass": "title-menu-landing"
+        }
+    },
+    "flex-layout.col#menu-item-term": {
+        "children":[
+            "menu-item#landing-terminos-y-condiciones"
+        ],
+        "props": {
+            "blockClass": "menu-landing__item-term"
+        }
+    },
+    "menu-item#landing-terminos-y-condiciones": {
+        "props": {
+            "id": "menu-item-landings",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-landing__link",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Términos y Condiciones",
+              "text": "Términos y Condiciones"
+            }
+        }
+    },
+
+    "flex-layout.col#menu-item-politicas": {
+        "children":[
+            "menu-item#landing-politicas"
+        ],
+        "props": {
+            "blockClass": "menu-landing__politicas"
+        }
+    },
+    "menu-item#landing-politicas": {
+        "props": {
+            "id": "menu-item-landings",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-landing__link",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Políticas de privacidad",
+              "text": "Políticas de privacidad"
+            }
+        }
+    },
+
+    "flex-layout.col#menu-item-contacto": {
+        "children":[
+            "menu-item#landing-contacto"
+        ],
+        "props": {
+            "blockClass": "menu-landing__contacto"
+        }
+    },
+    "menu-item#landing-contacto": {
+        "props": {
+            "id": "menu-item-landings",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-landing__link",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Contacto",
+              "text": "Contacto"
+            }
+        }
+    },
+
+    "flex-layout.col#menu-item-devoluciones": {
+        "children":[
+            "menu-item#landing-devoluciones"
+        ],
+        "props": {
+            "blockClass": "menu-landing__devoluciones"
+        }
+    },
+    "menu-item#landing-devoluciones": {
+        "props": {
+            "id": "menu-item-landings",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-landing__link",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "Cambios y devoluciones",
+              "text": "Cambios y devoluciones"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.content {
+    background-color: #2088b1;
+}
+
+.container {
+    :global(.vtex-button) {
+        background-color: #1d1d1b!important;
+        outline: none;
+        &:hover {
+            background-color: #1d1d1b!important;
+        }
+    }
+}
+
+.arrowUp {
+    background-color: #2088b1;
+}
+
+.formTitle {
+    font-family: "Montserrat";
+    color: #fff;
+    font-size: .8rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.optionsListItem {
+    :global(.vtex-button) {
+        background-color: #fff;
+        border-color: #fff;
+        color: #2088b1;
+        transition-duration: .3s;
+
+        &:hover {
+            background-color: rgb(238, 238, 238);
+            border-color: rgb(238, 238, 238);
+        }
+    }
+    :global(.vtex-button__label) {
+        font-family: "Montserrat";
+        font-size: .8rem;
+        font-weight: normal;
+        padding: 0;
+    }
+}

@@ -1,0 +1,693 @@
+.searchResultContainer {
+  max-width: 1200px;
+  margin-bottom: 160px;
+  .container--layout {
+    :global(.vtex-flex-layout-0-x-flexRow--result-container) {
+      :global(.vtex-flex-layout-0-x-flexRowContent--result-container) {
+        justify-content: space-between;
+        :global(.vtex-flex-layout-0-x-flexCol--title-filter) {
+          :global(.vtex-flex-layout-0-x-flexColChild--title-filter) {
+            .galleryTitle--layout {
+              margin: 0;
+              font-size: 37px;
+              line-height: 44px;
+              color: #000;
+              margin-bottom: 30px;
+            }
+            .filters--layout {
+              .filtersWrapper {
+                .filter__container {
+                  border-bottom: none;
+                  margin-bottom: 30px;
+                  .filterAvailable {
+                    font-weight: 800;
+                    border-bottom: unset;
+                    font-size: 13px;
+                  }
+                  .filterTemplateOverflow {
+                    font-weight: 500;
+                    color: #9c9b9b;
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding-bottom: 10px;
+                    .filterContent {
+                      .filterItem {
+                        :global(.vtex-checkbox__line-container) {
+                          :global(.vtex-checkbox__container) {
+                            height: 15px;
+                            width: 15px;
+                            :global(.vtex-checkbox__inner-container) {
+                              height: 15px;
+                              width: 15px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .filter {
+                    padding: 0;
+                    border-bottom: 1px solid #999;
+                    margin-bottom: 10px;
+                    padding-bottom: 5px;
+                    outline: unset;
+                    &:focus {
+                      outline: unset;
+                    }
+                    :focus {
+                      outline: unset;
+                    }
+                    .filterIcon {
+                      color: #000;
+                    }
+                  }
+                }
+                .filter__container--title,
+                .filter__container--priceRange {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        :global(.vtex-flex-layout-0-x-flexCol--content) {
+          :global(.vtex-flex-layout-0-x-flexColChild--content) {
+            &:first-child {
+              margin-bottom: 20px;
+            }
+            :global(.vtex-flex-layout-0-x-flexRow--orderBy) {
+              :global(.vtex-flex-layout-0-x-flexRowContent--orderBy) {
+                .orderBy--layout {
+                  margin-left: 4rem;
+                  margin-bottom: 25px;
+                  width: fit-content !important;
+                  .orderByDropdown {
+                    border: 1px solid #868686;
+                    border-radius: 40px;
+                    .orderByButton {
+                      padding: 0.2rem 15px;
+                      border-radius: 30px;
+                      .filterPopupTitle {
+                        font-size: 9px;
+                        color: #868686;
+                        line-height: 23px;
+                        margin-right: 10px;
+                      }
+                      .filterPopupArrowIcon {
+                        padding: 0;
+                      }
+                    }
+                    .orderByOptionsContainer {
+                      border-radius: 20px 20px 0 0;
+                    }
+                  }
+                }
+              }
+            }
+            :global(.vtex-flex-layout-0-x-flexRow--search-content) {
+              :global(.vtex-flex-layout-0-x-flexRowContent--search-content) {
+                .gallery {
+                  justify-content: flex-start;
+                  padding-left: 0;
+                  .galleryItem {
+                    margin: 0 4px 3rem;
+                    padding: 0.8rem 0 0 0;
+                    border: 1px solid rgb(158, 158, 158);
+                    border-radius: 10px;
+                    background-color: #fff;
+                    transition-duration: 0.2s;
+
+                    &:hover {
+                      box-shadow: 0 0 15px 0 #e3e3e3;
+                      z-index: 10;
+                      cursor: pointer;
+                      background-color: #fff;
+                      transform: scale(1.1);
+                    }
+                    :global(.vtex-product-summary-2-x-container) {
+                      position: relative;
+                      overflow: visible;
+                      :global(.vtex-product-summary-2-x-clearLink) {
+                        height: 310px;
+                        :global(.vtex-product-summary-2-x-element) {
+                          padding: 0 0.8rem;
+                          position: relative;
+                          min-height: 302px;
+                          :global(.vtex-stack-layout-0-x-stackContainer) {
+                            float: none;
+                            margin-bottom: 0.5rem;
+                            :global(.vtex-product-summary-2-x-image) {
+                              max-height: 125px !important;
+                            }
+                          }
+                          :global(.vtex-product-summary-2-x-nameContainer) {
+                            justify-content: start;
+                            margin-top: 1rem;
+                            margin-bottom: 0.5rem;
+                            height: 30px;
+                            display: flex;
+                            align-items: flex-end;
+                            :global(.vtex-product-summary-2-x-productNameContainer) {
+                              color: #000;
+                              font-size: 12px;
+                              font-weight: 700;
+                              :global(.vtex-product-summary-2-x-productBrand) {
+                                font-size: 12px;
+                                font-weight: bold;
+                                font-family: "Montserrat";
+                              }
+                            }
+                          }
+                          :global(.vtex-flex-layout-0-x-flexRow--selling-price-savings-related) {
+                            :global(.vtex-product-price-1-x-sellingPrice) {
+                              color: #3f3f40;
+                              font-size: 1.25rem;
+                              line-height: 12px;
+
+                              :global(.vtex-product-price-1-x-sellingPriceValue) {
+                                color: #ff0033;
+                                font-family: "OpenSans";
+                                font-size: 12px;
+                                font-weight: 600;
+
+                                &::before {
+                                  content: "Oferta: ";
+                                }
+                              }
+                            }
+                          }
+                          :global(.vtex-product-price-1-x-listPrice--summary) {
+                            text-decoration: none;
+                            :global(.vtex-product-price-1-x-currencyContainer--summary) {
+                              text-decoration: none;
+                              color: #6f6f6e;
+                              font-family: "OpenSans";
+                              font-size: 12px;
+                              font-weight: 400;
+                              &::before {
+                                content: "Antes: ";
+                              }
+                            }
+                          }
+
+                          :global(.vtex-button) {
+                            position: absolute;
+                            left: 50%;
+                            bottom: -6%;
+                            transform: translate(-50%, 0%);
+                            width: 110px;
+                            height: 25px;
+                            min-height: auto;
+                            border-radius: 40px;
+                            transition-duration: 0.5s;
+                            border-color: transparent;
+
+                            &:hover {
+                              background-color: #ff9933;
+                              border-color: #ff9933;
+                            }
+
+                            :global(.vtex-button__label) {
+                              padding: 0 !important;
+                              margin: 0 !important;
+                              padding: 0 !important;
+                              font-size: 12px;
+                              font-family: "Montserrat";
+                              font-weight: Bold;
+                              text-transform: capitalize;
+                            }
+                          }
+                          :global(.vtex-product-summary-2-x-buyButtonContainer) {
+                            position: absolute;
+                            left: 50%;
+                            bottom: -7%;
+                            transform: translate(-50%, 0%);
+
+                            :global(.vtex-product-summary-2-x-buyButton) {
+                              display: flex;
+                              justify-content: center;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                .buttonShowMore--layout {
+                  background: red;
+                  .buttonShowMore {
+                    :global(.vtex-button) {
+                      width: fit-content;
+                      border-radius: 20px;
+                      min-height: unset;
+                      background-color: #464646;
+                      border-color: #464646;
+                    }
+                  }
+                }
+              }
+            }
+            :global(.vtex-flex-layout-0-x-flexRow--fetch) {
+              :global(.vtex-flex-layout-0-x-flexRowContent--fetch) {
+                .buttonShowMore--layout {
+                  .buttonShowMore {
+                    :global(.vtex-button) {
+                      width: fit-content;
+                      border-radius: 20px;
+                      min-height: unset;
+                      background-color: #464646;
+                      border-color: #464646;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--contentmobile) {
+      :global(.vtex-flex-layout-0-x-flexRowContent--contentmobile) {
+        .gallery {
+          justify-content: space-between;
+          margin: 40px 0 0;
+          .galleryItem {
+            margin: 0 0 42px 0;
+            border: 1px solid rgb(158, 158, 158);
+            border-radius: 10px;
+            flex-basis: 48% !important;
+            :global(.vtex-product-summary-2-x-container) {
+              position: relative;
+              overflow: visible;
+              :global(.vtex-product-summary-2-x-clearLink) {
+                :global(.vtex-product-summary-2-x-element) {
+                  :global(.vtex-stack-layout-0-x-stackContainer) {
+                    float: none;
+                  }
+                  :global(.vtex-product-summary-2-x-nameContainer) {
+                    :global(.vtex-product-summary-2-x-productNameContainer) {
+                      color: #000;
+                      font-size: 12px;
+                      font-weight: 700;
+                      :global(.vtex-product-summary-2-x-productBrand) {
+                        color: #000;
+                        font-size: 12px;
+                        font-weight: 700;
+                      }
+                    }
+                  }
+                  :global(.vtex-product-price-1-x-sellingPrice) {
+                    margin-bottom: 22px;
+                    :global(.vtex-product-price-1-x-sellingPriceValue) {
+                      font-size: 12px;
+                      line-height: 15px;
+                      font-weight: 600;
+                    }
+                  }
+                  :global(.vtex-product-price-1-x-installments) {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .buttonShowMore--layout {
+          background: red;
+          .buttonShowMore {
+            :global(.vtex-button) {
+              width: fit-content;
+              border-radius: 20px;
+              min-height: unset;
+              background-color: #464646;
+              border-color: #464646;
+            }
+          }
+        }
+      }
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--fetch) {
+      margin-top: 15px;
+      :global(.vtex-flex-layout-0-x-flexRowContent--fetch) {
+        .buttonShowMore--layout {
+          .buttonShowMore {
+            :global(.vtex-button) {
+              width: fit-content;
+              border-radius: 20px;
+              min-height: unset;
+              background-color: #464646;
+              border-color: #464646;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.galleryItem--normal {
+  width: 22% !important;
+  flex-basis: 24% !important;
+}
+
+.filterTitle {
+  font-family: "Montserrat";
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filterItem {
+  :global(.vtex-checkbox__container) {
+    // display: none;
+  }
+  :global(.vtex-checkbox__line-container) {
+    align-items: center;
+  }
+  :global(.vtex-checkbox__label) {
+    font-size: 0.7rem;
+    font-family: "Montserrat";
+    color: #9c9b9b;
+  }
+}
+
+.filtersWrapper {
+  display: flex;
+  flex-direction: column;
+  .filter__container--category-2 {
+    order: 1;
+
+    .filterItem {
+      margin-bottom: 0.5rem;
+      :global(.vtex-checkbox__label) {
+        font-size: 1.1rem;
+        font-family: "montserrat";
+        color: #000;
+        font-weight: bold;
+      }
+    }
+  }
+  .filter__container--brand {
+    order: 2;
+  }
+  .filter__container--modelo {
+    order: 3;
+  }
+  .filter__container--ano {
+    order: 4;
+  }
+}
+
+.orderByOptionsContainer {
+  width: 200px;
+  z-index: 12;
+  .orderByOptionItem--selected {
+    background-color: #1d8cb8;
+    color: #fff;
+  }
+  .orderByOptionItem {
+    transition-duration: 0.3s;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 0.8rem;
+    &:hover {
+      background-color: #1d8cb8;
+      color: #fff;
+    }
+  }
+}
+
+.buttonShowMore {
+  :global(.vtex-button) {
+    padding: 0.2rem 0.5rem;
+    transition-duration: 0.3s;
+    &:hover {
+      background-color: #1d8cb8 !important;
+      border-color: #1d8cb8 !important;
+      color: #fff;
+    }
+    :global(.vtex-button__label) {
+      font-family: "Montserrat";
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  :global(.vtex-sticky-layout-0-x-wrapper) {
+    overflow: hidden;
+  }
+
+  .filtersWrapperMobile {
+    background-color: #d9d9d9;
+    height: 23px;
+    border-radius: 6px;
+    .filterPopupButton {
+      background-color: #d9d9d9;
+      height: 23px !important;
+
+      .filterPopupTitle {
+        font-family: "OpenSans";
+        font-size: 0;
+        color: #000;
+
+        &::before {
+          content: "Filtros";
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .sidebar {
+    max-height: 100vh;
+    overflow: auto;
+
+    .filterButtonsBox {
+      height: auto;
+      width: 100%;
+      // margin-bottom: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      background-color: rgb(228, 228, 228);
+      display: flex;
+      justify-content: space-around;
+
+      .filterClearButtonWrapper {
+        padding: 0;
+        width: 48% !important;
+        max-width: 110px;
+
+        :global(.vtex-button) {
+          background-color: #6f6f6e;
+          :global(.vtex-button__label) {
+            font-family: "Montserrat";
+            font-size: 0.8rem;
+            color: #fff;
+            font-weight: 400;
+          }
+        }
+      }
+      .filterApplyButtonWrapper {
+        padding: 0;
+        width: 48% !important;
+        max-width: 110px;
+
+        :global(.vtex-button) {
+          background-color: #1d8cb8;
+          border-color: #1d8cb8;
+          :global(.vtex-button__label) {
+            font-family: "Montserrat";
+            font-size: 0.8rem;
+            color: #fff;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .accordionFilter {
+    max-height: 80vh;
+    .filterBreadcrumbsText {
+      font-family: "montserrat";
+      font-size: 1rem;
+      font-weight: bold;
+      color: #1d8cb8;
+    }
+
+    .accordionFilterContainer {
+      .accordionFilterItemTitle {
+        font-family: "Montserrat";
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--search-content) {
+    :global(.vtex-search-result-3-x-galleryItem) {
+      margin: 0 0 3rem 0;
+      padding: 0.8rem 0 0 0;
+      border: 1px solid #9e9e9e;
+      border-radius: 10px;
+      background-color: #fff;
+      transition-duration: 0.2s;
+      flex-basis: 48% !important;
+
+      :global(.vtex-product-summary-2-x-container) {
+        overflow: visible;
+      }
+
+      :global(.vtex-product-summary-2-x-clearLink) {
+        height: 254px;
+
+        :global(.vtex-product-summary-2-x-element) {
+          padding: 0 0.8rem;
+          position: relative;
+          min-height: 250px;
+
+          :global(.vtex-stack-layout-0-x-stackContainer) {
+            :global(.vtex-product-summary-2-x-image) {
+              max-height: 103px !important;
+            }
+          }
+
+          :global(.vtex-product-summary-2-x-nameContainer) {
+            justify-content: start;
+            margin-top: 1rem;
+            margin-bottom: 0rem;
+            height: 25px;
+            display: flex;
+            align-items: flex-end;
+
+            :global(.vtex-product-summary-2-x-productNameContainer) {
+              color: #000;
+              font-size: 12px;
+              font-weight: 700;
+
+              :global(.vtex-product-summary-2-x-productBrand) {
+                font-size: 10px;
+                font-weight: bold;
+                font-family: "Montserrat";
+              }
+            }
+          }
+
+          :global(.vtex-flex-layout-0-x-flexRow--contenedor-precios-search) {
+            :global(.vtex-flex-layout-0-x-flexRowContent--contenedor-precios-search) {
+              display: flex;
+              flex-direction: column;
+              min-height: 25px;
+
+              :global(.vtex-flex-layout-0-x-flexRowContent--selling-price-savings-related) {
+                margin-bottom: 0;
+              }
+
+              :global(.vtex-flex-layout-0-x-flexRow--selling-price-savings-related) {
+                :global(.vtex-product-price-1-x-sellingPriceValue) {
+                  color: #ff0033;
+                  font-family: "OpenSans";
+                  font-size: 12px;
+                  font-weight: 600;
+                }
+              }
+              :global(.vtex-product-price-1-x-listPrice) {
+                text-decoration: none;
+
+                :global(.vtex-product-price-1-x-currencyContainer--summary) {
+                  text-decoration: none;
+                  color: #6f6f6e;
+                  font-family: "OpenSans";
+                  font-size: 12px;
+                  font-weight: 400;
+
+                  &::before {
+                    content: "Antes: ";
+                  }
+                }
+              }
+            }
+          }
+
+          :global(.vtex-button) {
+            position: absolute;
+            left: 50%;
+            bottom: -7%;
+            transform: translate(-50%, 0%);
+            width: 110px;
+            height: 25px;
+            min-height: auto;
+            border-radius: 40px;
+            background-color: #6f6f6e;
+            border-color: #6f6f6e;
+            transition-duration: 0.5s;
+
+            :global(.vtex-button__label) {
+              margin: 0 !important;
+              padding: 0 !important;
+              font-size: 12px;
+              font-family: "Montserrat";
+              font-weight: Bold;
+              text-transform: capitalize;
+            }
+          }
+          :global(.vtex-product-summary-2-x-buyButtonContainer) {
+            position: absolute;
+            left: 50%;
+            bottom: -7%;
+            transform: translate(-50%, 0%);
+
+            :global(.vtex-product-summary-2-x-buyButton) {
+              display: flex;
+              justify-content: center;
+            }
+          }
+
+          :global(.vtex-modal-layout-0-x-triggerContainer) {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .searchResultContainer {
+    max-width: 1800px;
+
+    .galleryItem {
+      max-width: 18%!important;
+    }
+  }
+}
+
+.filter__container--category-2 {
+  .filterContent {
+    display: flex;
+    flex-direction: column;
+
+    .filterItem--38amp {
+      order: 1;
+    }
+    .filterItem--45amp {
+      order: 2;
+    }
+    .filterItem--54amp {
+      order: 3;
+    }
+    .filterItem--70amp {
+      order: 4;
+    }
+    .filterItem--74amp {
+      order: 5;
+    }
+    .filterItem--90amp {
+      order: 6;
+    }
+  }
+}

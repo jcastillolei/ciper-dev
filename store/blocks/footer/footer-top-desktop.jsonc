@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#footer-top-desktop": {
+    "children": ["social-networks", "footer-spacer", "image#logo-carep"],
+    "props": {
+      "blockClass": "footer-top-desktop"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+  "image#logo-carep": {
+    "props": {
+      "src": "/arquivos/logo-carep.png",
+      "blockClass": "logo-carep"
+    }
+  }
+}

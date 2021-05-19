@@ -1,0 +1,107 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-container"
+    ]
+  },
+  "flex-layout.row#footer-container": {
+    "children": ["flex-layout.col#footer-container"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-container"
+    }
+  },
+  "flex-layout.col#footer-container": {
+    "children": [
+      "flex-layout.row#footer-top-desktop",
+      "flex-layout.row#footer-bottom-desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-container"
+    }
+  },
+  "flex-layout.row#footer-bottom-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#servicios-clientes",
+      "vtex.menu@2.x:menu#tiendas-santiago",
+      "vtex.menu@2.x:menu#tiendas-regiones",
+      "vtex.menu@2.x:menu#ayuda",
+      "flex-layout.row#pdp-services"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#mobile-top-footer",
+      "flex-layout.row#mobile-bottom-footer"
+    ]
+  },
+  "flex-layout.row#mobile-top-footer": {
+    "children": ["image#logo-carep"],
+    "props": {
+      "blockClass": "logo-carep",
+      "paddingTop": 4
+    }
+  },
+  "flex-layout.row#mobile-bottom-footer": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "mobile-footer-container"
+    },
+    "children": [
+      "social-networks",
+      "vtex.menu@2.x:menu#servicios-clientes",
+      "rich-text#tiendas-santiago",
+      "rich-text#tiendas-regiones",
+      "flex-layout.col#pdp-services"
+    ]
+  },
+  "flex-layout.row#pdp-services": {
+    "props": {
+      "blockClass": "pdp-services"
+    },
+    "children": ["flex-layout.col#pdp-services"]
+  },
+  "flex-layout.col#pdp-services": {
+    "props": {
+      "blockClass": "pdp-services"
+    },
+    "children": [
+      "rich-text#pdp-compra-segura",
+      "rich-text#pdp-cambios-devoluciones",
+      "rich-text#pdp-envio-domicilio"
+    ]
+  },
+  "rich-text#pdp-compra-segura": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "![Envío a domicilio img](https://ciper.vteximg.com.br/arquivos/ciper-icon-seguridad.png)  <div class='vtex-service-text'><div class='vtex-service-title'>Compra segura y protegida</div> <div class='vtex-service-subtitle'>todas las compras en Placare.com</div></div>",
+      "blockClass": "compra-segura"
+    }
+  },
+  "rich-text#pdp-cambios-devoluciones": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "![Envío a domicilio img](https://ciper.vteximg.com.br/arquivos/ciper-icon-code-devoluciones.png) <div class='vtex-service-text'><div class='vtex-service-title'>Cambios y devoluciones gratis</div> <div class='vtex-service-subtitle'>tienes 15 días para realizar tus cambios</div></div>",
+      "blockClass": "devoluciones"
+    }
+  },
+  "rich-text#pdp-envio-domicilio": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "![Envío a domicilio img](https://ciper.vteximg.com.br/arquivos/ciper-icon-delivery.png) <div class='vtex-service-text'><div class='vtex-service-title'>Envíos a todo Chile</div> <div class='vtex-service-subtitle'>Chilexpress y Correos de Chile</div></div>",
+      "blockClass": "envio-domicilio"
+    }
+  }
+}

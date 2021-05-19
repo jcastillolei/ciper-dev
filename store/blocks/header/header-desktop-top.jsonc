@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#header-desktop-top": {
+    "children": ["slider-layout#notification-bar", "rich-text#sitio-seguro"],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "header-top"
+    }
+  },
+  "slider-layout#notification-bar": {
+    "props": {
+      "width": "100%",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "notification-bar"
+    },
+    "children": [
+      "rich-text#notification-bar-1",
+      "rich-text#notification-bar-2",
+      "rich-text#notification-bar-3"
+    ]
+  },
+  "rich-text#notification-bar-1": {
+    "props": {
+      "text": "**40%** EN TODO EMBELLECIMIENTO / DESPACHO GRATIS **RM**"
+    }
+  },
+  "rich-text#notification-bar-2": {
+    "props": {
+      "text": "10% EN TODO FARMACIA / DESPACHO GRATIS RM"
+    }
+  },
+  "rich-text#notification-bar-3": {
+    "props": {
+      "text": "50% EN TODO JEANS / DESPACHO GRATIS RM"
+    }
+  },
+  "rich-text#sitio-seguro": {
+    "props": {
+      "text": "**Compra segura y protegida** ***Todas las compras en ciper.com***",
+      "blockClass": "sitio-seguro-header"
+    }
+  }
+}
