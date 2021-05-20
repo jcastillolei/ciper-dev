@@ -1535,3 +1535,36 @@
     margin-bottom: 0;
   }
 }
+:global(.vtex-rich-text-0-x-container--title-shelf-custom-need){
+  color: black;
+  font-family: 'Montserrat';
+}
+.flexRow--buscador-ciper{
+  .flexCol--buscador-ciper-left{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1rem;
+
+    .flexColChild--buscador-ciper-left{
+      :global(.vtex-rich-text-0-x-container--title-shelf-custom-single){
+        font-family: 'Montserrat';
+        font-weight: bold;    
+      }
+    }
+  }
+
+  .flexCol--buscador-ciper-middle{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 2rem;
+
+    .flexColChild--buscador-ciper-middle{
+      :global(.vtex-rich-text-0-x-wrapper--title-shelf-custom-single){
+        font-family: 'Montserrat';
+        font-weight: bold;
+        justify-content: left;
+      }
+    }
+  }
+}

@@ -55,18 +55,19 @@
   },
   "rich-text#title-shelf-buscador": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "¿Qué necesitas?",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "¿QUÉ NECESITAS?",
       "textColor": "heading--help-message",
       "font": "t-heading-3",
-      "blockClass": "title-shelf-custom-single"
+      "blockClass": "title-shelf-custom-need"
     }
   },
   "flex-layout.col#buscador-left":{
     "children": ["image#buscador-left","rich-text#title-busca-tu-vehiculo-left","search-bar#marca"],
     "props": {
-      "blockClass": "buscador-ciper-left"
+      "blockClass": "buscador-ciper-left",
+      "width": "30%"
     }
   },
   "image#buscador-left": {
@@ -76,8 +77,8 @@
   },
   "rich-text#title-busca-tu-vehiculo-left": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Busca tu vehículo",
       "textColor": "heading--help-message",
       "blockClass": "title-shelf-custom-single"
@@ -87,14 +88,15 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "¿qué vehículo deseas buscar?"
+      "placeholder": "Busca tu vehículo"
     }
   },
 
   "flex-layout.col#buscador-middle":{
     "children": ["image#buscador-middle","rich-text#title-busca-tu-vehiculo-middle","search-bar#sku"],
     "props": {
-      "blockClass": "buscador-ciper-middle"
+      "blockClass": "buscador-ciper-middle",
+      "width": "30%"
     }
   },
   "image#buscador-middle": {
@@ -104,8 +106,8 @@
   },
   "rich-text#title-busca-tu-vehiculo-middle": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Buscar por VIN o SKU",
       "textColor": "heading--help-message",
       "blockClass": "title-shelf-custom-single"
