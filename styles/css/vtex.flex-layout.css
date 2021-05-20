@@ -1450,6 +1450,12 @@
   font-family: "Montserrat";
 }
 
+.flexRow--buscador-ciper :global(.vtex-store-components-3-x-searchBarContainer) {
+  min-width: 200px;
+}
+.flexRow--buscador-ciper :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+  border-radius: 0px;
+}
 .flexRow--buscador-ciper .flexCol--buscador-ciper-left {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 5px;

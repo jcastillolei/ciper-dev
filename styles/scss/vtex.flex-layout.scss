@@ -1538,8 +1538,17 @@
 :global(.vtex-rich-text-0-x-container--title-shelf-custom-need){
   color: black;
   font-family: 'Montserrat';
+
 }
 .flexRow--buscador-ciper{
+  
+  :global(.vtex-store-components-3-x-searchBarContainer){
+    min-width: 200px;
+    :global(.vtex-input-prefix__group){
+      border-radius: 0px;
+    }
+  }
+
   .flexCol--buscador-ciper-left{
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
