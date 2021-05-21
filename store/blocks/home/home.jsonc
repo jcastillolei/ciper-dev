@@ -72,7 +72,7 @@
   },
   "image#buscador-left": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "https://image.flaticon.com/icons/png/512/168/168466.png"
     }
   },
   "rich-text#title-busca-tu-vehiculo-left": {
@@ -101,7 +101,7 @@
   },
   "image#buscador-middle": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "https://image.flaticon.com/icons/png/512/58/58274.png"
     }
   },
   "rich-text#title-busca-tu-vehiculo-middle": {

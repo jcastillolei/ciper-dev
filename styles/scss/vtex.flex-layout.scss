@@ -1538,14 +1538,37 @@
 :global(.vtex-rich-text-0-x-container--title-shelf-custom-need){
   color: black;
   font-family: 'Montserrat';
+  margin: 0 auto;
+  width: 96rem;
 
 }
 .flexRow--buscador-ciper{
-  
+  :global(.vtex-store-components-3-x-imageElement){
+    opacity: .4;
+    width: 48px;
+  }
+
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+    max-width: 20vw;
+    :global(.vtex-search-2-x-itemListTitle),
+    :global(.vtex-search-2-x-itemListItem){
+      font-family: 'Montserrat';
+    }
+  }
+
   :global(.vtex-store-components-3-x-searchBarContainer){
     min-width: 200px;
+    border-radius: 0px;
+    :global(.vtex-input__suffix){
+      background: #e3e4e6;
+      border-radius: 0px;
+    }
     :global(.vtex-input-prefix__group){
       border-radius: 0px;
+      :global(.vtex-styleguide-9-x-input){
+        background: #e3e4e6;
+        font-size: .8rem;
+      }
     }
   }
 
@@ -1557,7 +1580,7 @@
     .flexColChild--buscador-ciper-left{
       :global(.vtex-rich-text-0-x-container--title-shelf-custom-single){
         font-family: 'Montserrat';
-        font-weight: bold;    
+        font-weight: 500;    
       }
     }
   }
@@ -1571,7 +1594,7 @@
     .flexColChild--buscador-ciper-middle{
       :global(.vtex-rich-text-0-x-wrapper--title-shelf-custom-single){
         font-family: 'Montserrat';
-        font-weight: bold;
+        font-weight: 500;
         justify-content: left;
       }
     }
