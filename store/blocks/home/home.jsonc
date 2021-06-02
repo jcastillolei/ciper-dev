@@ -5,7 +5,8 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
        "rich-text#title-shelf-buscador",
-       "flex-layout.row#buscador-ciper",
+       "flex-layout.row#buscador-ciper1",
+       "flex-layout.row#buscador-ciper2",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "flex-layout.row#marcas",
@@ -47,7 +48,41 @@
       "blockClass": "carousel"
     }
   },
-  "flex-layout.row#buscador-ciper":{
+  "flex-layout.row#buscador-ciper1":{
+    "children": ["flex-layout.col#buscador-principal"],
+    "props": {
+      "blockClass": "buscador-ciper"
+    }
+  },
+  "flex-layout.col#buscador-principal":{
+    "children": ["rich-text#title-busca-tu-vehiculo-principal","search-bar#nombre"],
+    "props": {
+      "blockClass": "buscador-ciper-left",
+      "width": "60%"
+    }
+  },
+  "image#buscador-principal": {
+    "props": {
+      "src": "https://image.flaticon.com/icons/png/512/168/168466.png"
+    }
+  },
+  "rich-text#title-busca-tu-vehiculo-principal": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Busca por nombre",
+      "textColor": "heading--help-message",
+      "blockClass": "title-shelf-custom-single"
+    }
+  },
+  "search-bar#nombre": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué buscas?"
+    }
+  },
+  "flex-layout.row#buscador-ciper2":{
     "children": ["flex-layout.col#buscador-left","flex-layout.col#buscador-middle","flex-layout.col#buscador-right"],
     "props": {
       "blockClass": "buscador-ciper"
